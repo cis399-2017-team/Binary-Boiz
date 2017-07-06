@@ -1,0 +1,4 @@
+The public ip for an instance can be found under the IPv4 Public IP column of the EC2 instance browser
+
+It can also be retrieved from inside the instance by running the command:  
+    curl http://169.254.169.254/latest/meta-data/public-ipv4
