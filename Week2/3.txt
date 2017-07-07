@@ -1,0 +1,8 @@
+Filesystem     Type     1K-blocks    Used Available Use% Mounted on
+udev           devtmpfs    241548       0    241548   0% /dev
+tmpfs          tmpfs        49860    5580     44280  12% /run
+/dev/xvda1     ext4       8065444 1226288   6822772  16% /
+tmpfs          tmpfs       249288       0    249288   0% /dev/shm
+tmpfs          tmpfs         5120       0      5120   0% /run/lock
+tmpfs          tmpfs       249288       0    249288   0% /sys/fs/cgroup
+tmpfs          tmpfs        49860       0     49860   0% /run/user/1000
