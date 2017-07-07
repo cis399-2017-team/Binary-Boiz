@@ -1,0 +1,5 @@
+ubuntu@ip-10-0-2-190:~$ route
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         ip-10-0-2-1.us- 0.0.0.0         UG    0      0        0 eth0
+10.0.2.0        *               255.255.255.0   U     0      0        0 eth0
