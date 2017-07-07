@@ -1,0 +1,121 @@
+ubuntu@ip-10-0-2-190:~$ ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  1.1  40056  5852 ?        Ss   Jul06   0:02 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    Jul06   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    Jul06   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Jul06   0:00 [kworker/0:0H]
+root         7  0.0  0.0      0     0 ?        S    Jul06   0:00 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    Jul06   0:00 [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S    Jul06   0:00 [migration/0]
+root        10  0.0  0.0      0     0 ?        S    Jul06   0:00 [watchdog/0]
+root        11  0.0  0.0      0     0 ?        S    Jul06   0:00 [kdevtmpfs]
+root        12  0.0  0.0      0     0 ?        S<   Jul06   0:00 [netns]
+root        13  0.0  0.0      0     0 ?        S<   Jul06   0:00 [perf]
+root        14  0.0  0.0      0     0 ?        S    Jul06   0:00 [xenwatch]
+root        15  0.0  0.0      0     0 ?        S    Jul06   0:00 [xenbus]
+root        17  0.0  0.0      0     0 ?        S    Jul06   0:00 [khungtaskd]
+root        18  0.0  0.0      0     0 ?        S<   Jul06   0:00 [writeback]
+root        19  0.0  0.0      0     0 ?        SN   Jul06   0:00 [ksmd]
+root        20  0.0  0.0      0     0 ?        S<   Jul06   0:00 [crypto]
+root        21  0.0  0.0      0     0 ?        S<   Jul06   0:00 [kintegrityd]
+root        22  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root        23  0.0  0.0      0     0 ?        S<   Jul06   0:00 [kblockd]
+root        24  0.0  0.0      0     0 ?        S<   Jul06   0:00 [ata_sff]
+root        25  0.0  0.0      0     0 ?        S<   Jul06   0:00 [md]
+root        26  0.0  0.0      0     0 ?        S<   Jul06   0:00 [devfreq_wq]
+root        29  0.0  0.0      0     0 ?        S    Jul06   0:00 [kswapd0]
+root        30  0.0  0.0      0     0 ?        S<   Jul06   0:00 [vmstat]
+root        31  0.0  0.0      0     0 ?        S    Jul06   0:00 [fsnotify_mark]
+root        32  0.0  0.0      0     0 ?        S    Jul06   0:00 [ecryptfs-kthre
+root        48  0.0  0.0      0     0 ?        S<   Jul06   0:00 [kthrotld]
+root        49  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root        50  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root        51  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root        52  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root        53  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root        54  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root        55  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root        56  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root        57  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root        58  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root        59  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root        60  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root        61  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root        62  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root        63  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root        64  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root        65  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root        66  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root        67  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root        68  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root        69  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root        70  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root        71  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root        72  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root        73  0.0  0.0      0     0 ?        S    Jul06   0:00 [scsi_eh_0]
+root        74  0.0  0.0      0     0 ?        S<   Jul06   0:00 [scsi_tmf_0]
+root        75  0.0  0.0      0     0 ?        S    Jul06   0:00 [scsi_eh_1]
+root        76  0.0  0.0      0     0 ?        S<   Jul06   0:00 [scsi_tmf_1]
+root        78  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root        82  0.0  0.0      0     0 ?        S<   Jul06   0:00 [ipv6_addrconf]
+root        96  0.0  0.0      0     0 ?        S<   Jul06   0:00 [deferwq]
+root       136  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root       137  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root       138  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root       139  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root       140  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root       141  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root       142  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root       143  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root       259  0.0  0.0      0     0 ?        S<   Jul06   0:00 [raid5wq]
+root       290  0.0  0.0      0     0 ?        S<   Jul06   0:00 [bioset]
+root       311  0.0  0.0      0     0 ?        S    Jul06   0:00 [jbd2/xvda1-8]
+root       312  0.0  0.0      0     0 ?        S<   Jul06   0:00 [ext4-rsv-conve
+root       357  0.0  0.0      0     0 ?        S<   Jul06   0:00 [kworker/0:1H]
+root       384  0.0  0.0      0     0 ?        S<   Jul06   0:00 [iscsi_eh]
+root       385  0.0  0.6  29756  3000 ?        Ss   Jul06   0:00 /lib/systemd/sy
+root       387  0.0  0.0      0     0 ?        S<   Jul06   0:00 [ib_addr]
+root       390  0.0  0.0      0     0 ?        S<   Jul06   0:00 [ib_mcast]
+root       393  0.0  0.0      0     0 ?        S<   Jul06   0:00 [ib_nl_sa_wq]
+root       395  0.0  0.0      0     0 ?        S<   Jul06   0:00 [ib_cm]
+root       397  0.0  0.0      0     0 ?        S<   Jul06   0:00 [iw_cm_wq]
+root       398  0.0  0.0      0     0 ?        S<   Jul06   0:00 [rdma_cm]
+root       412  0.0  0.0      0     0 ?        S    Jul06   0:00 [kauditd]
+root       438  0.0  0.2 105016  1464 ?        Ss   Jul06   0:00 /sbin/lvmetad -
+root       472  0.0  0.7  44404  3708 ?        Ss   Jul06   0:00 /lib/systemd/sy
+systemd+   556  0.0  0.4 102372  2384 ?        Ssl  Jul06   0:00 /lib/systemd/sy
+root       942  0.0  0.5  18164  2956 ?        Ss   Jul06   0:00 /sbin/dhclient
+root      1076  0.0  0.0   7272   160 ?        Ss   Jul06   0:03 /sbin/iscsid
+root      1077  0.0  0.9   7772  4556 ?        S<Ls Jul06   0:14 /sbin/iscsid
+root      1082  0.0  1.1 274992  5564 ?        Ssl  Jul06   0:01 /usr/lib/accoun
+root      1084  0.0  0.4  28116  2360 ?        Ss   Jul06   0:00 /usr/sbin/cron
+root      1090  0.0  0.2   6448  1224 ?        Ss   Jul06   0:00 /usr/sbin/acpid
+root      1096  0.0  0.5  30668  2948 ?        Ss   Jul06   0:00 /lib/systemd/sy
+message+  1103  0.0  0.6  44952  3408 ?        Ss   Jul06   0:00 /usr/bin/dbus-d
+root      1117  0.0  0.5 638772  2716 ?        Ssl  Jul06   0:00 /usr/bin/lxcfs
+syslog    1118  0.0  0.6 262680  3272 ?        Ssl  Jul06   0:00 /usr/sbin/rsysl
+daemon    1121  0.0  0.4  28092  2076 ?        Ss   Jul06   0:00 /usr/sbin/atd -
+root      1140  0.0  3.3 280564 16648 ?        Ssl  Jul06   0:04 /usr/lib/snapd/
+root      1187  0.0  0.0  15424   168 ?        Ss   Jul06   0:00 /sbin/mdadm --m
+root      1192  0.0  1.1 279228  5548 ?        Ssl  Jul06   0:00 /usr/lib/policy
+root      1257  0.0  0.3  16708  1652 tty1     Ss+  Jul06   0:00 /sbin/agetty --
+root      1260  0.0  0.3  14892  1652 ttyS0    Ss+  Jul06   0:00 /sbin/agetty --
+root      1313  0.0  0.8  67568  4368 ?        Ss   Jul06   0:00 /usr/sbin/sshd
+root      1359  0.0  0.0      0     0 ?        S    Jul06   0:01 [kworker/0:1]
+root     11879  0.0  0.0      0     0 ?        S    Jul06   0:00 [kworker/u30:2]
+root     16428  0.0  0.0      0     0 ?        S<   Jul06   0:00 [xfsalloc]
+root     16429  0.0  0.0      0     0 ?        S<   Jul06   0:00 [xfs_mru_cache]
+root     18267  0.0  0.0      0     0 ?        S    11:22   0:00 [kworker/0:2]
+root     18545  0.0  0.0      0     0 ?        S    11:23   0:00 [kworker/u30:0]
+root     19383  0.0  1.3  97416  6832 ?        Ss   19:47   0:00 sshd: ubuntu [p
+ubuntu   19385  0.0  0.9  47296  4684 ?        Ss   19:47   0:00 /lib/systemd/sy
+ubuntu   19388  0.0  0.4  63508  2100 ?        S    19:47   0:00 (sd-pam)
+ubuntu   19445  0.0  0.6  97416  3388 ?        S    19:47   0:00 sshd: ubuntu@pt
+ubuntu   19448  0.0  1.0  23444  5120 pts/0    Ss+  19:47   0:00 -bash
+root     19506  0.0  1.3  97416  6864 ?        Ss   20:06   0:00 sshd: ubuntu [p
+ubuntu   19538  0.0  0.6  97416  3132 ?        S    20:06   0:00 sshd: ubuntu@pt
+ubuntu   19539  0.0  1.0  23444  5176 pts/1    Ss+  20:06   0:00 -bash
+root     19590  0.0  1.3  97416  6892 ?        Ss   20:17   0:00 sshd: ubuntu [p
+ubuntu   19622  0.0  0.6  97416  3268 ?        S    20:17   0:00 sshd: ubuntu@pt
+ubuntu   19623  0.0  1.0  23444  5108 pts/2    Ss   20:17   0:00 -bash
+ubuntu   19669  0.0  0.6  38132  3212 pts/2    R+   20:30   0:00 ps aux
