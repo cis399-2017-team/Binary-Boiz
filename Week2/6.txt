@@ -1,0 +1,18 @@
+ubuntu@ip-10-0-2-190:~$ ifconfig
+eth0      Link encap:Ethernet  HWaddr 0a:ff:79:f2:8e:d4
+          inet addr:10.0.2.190  Bcast:10.0.2.255  Mask:255.255.255.0
+          inet6 addr: fe80::8ff:79ff:fef2:8ed4/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:9001  Metric:1
+          RX packets:49156 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:26912 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:48877943 (48.8 MB)  TX bytes:3356052 (3.3 MB)
+
+lo        Link encap:Local Loopback
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:160 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:160 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1
+          RX bytes:11840 (11.8 KB)  TX bytes:11840 (11.8 KB)
