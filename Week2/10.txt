@@ -1,0 +1,784 @@
+Script started on Sun 09 Jul 2017 09:42:25 PM UTC
+]0;ubuntu@ip-10-0-2-181: ~ubuntu@ip-10-0-2-181:~$ sudo apt-get update
+
+
+0% [Working]
+            
+Ign http://us-west-2.ec2.archive.ubuntu.com trusty InRelease
+
+            
+10% [Connecting to security.ubuntu.com (91.189.88.152)]
+                                                       
+Get:1 http://us-west-2.ec2.archive.ubuntu.com trusty-updates InRelease [65.9 kB]
+
+                                                       
+0% [1 InRelease 0 B/65.9 kB 0%] [Connecting to security.ubuntu.com (91.189.88.1
+                                                                               
+100% [Connecting to security.ubuntu.com (91.189.88.152)]
+                                                        
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty-backports InRelease
+
+100% [Connecting to security.ubuntu.com (91.189.88.152)]
+                                                        
+100% [1 InRelease gpgv 65.9 kB] [Waiting for headers] [Connecting to security.u
+                                                                               
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty Release.gpg
+
+100% [1 InRelease gpgv 65.9 kB] [Connecting to security.ubuntu.com (91.189.88.1
+                                                                               
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty Release
+
+100% [1 InRelease gpgv 65.9 kB] [Connecting to security.ubuntu.com (91.189.88.1
+                                                                               
+100% [Connecting to security.ubuntu.com (91.189.88.152)]
+                                                        
+100% [InRelease gpgv 65.9 kB] [Waiting for headers] [Connecting to security.ubu
+                                                                               
+Get:2 http://us-west-2.ec2.archive.ubuntu.com trusty-updates/main Sources [400 kB]
+
+20% [InRelease gpgv 65.9 kB] [2 Sources 29.4 kB/400 kB 7%] [Connecting to secur
+58% [2 Sources 203 kB/400 kB 51%] [Connecting to security.ubuntu.com (91.189.88
+75% [Release gpgv 58.5 kB] [2 Sources 286 kB/400 kB 71%] [Connecting to securit
+100% [Release gpgv 58.5 kB] [Connecting to security.ubuntu.com (91.189.88.152)]
+                                                                               
+100% [Connecting to security.ubuntu.com (91.189.88.152)]
+                                                        
+100% [2 Sources bzip2 0 B] [Waiting for headers] [Connecting to security.ubuntu
+                                                                               
+Get:3 http://us-west-2.ec2.archive.ubuntu.com trusty-updates/restricted Sources [6,331 B]
+
+100% [2 Sources bzip2 0 B] [Waiting for headers] [Connecting to security.ubuntu
+                                                                               
+Get:4 http://us-west-2.ec2.archive.ubuntu.com trusty-updates/universe Sources [185 kB]
+
+76% [2 Sources bzip2 0 B] [4 Sources 26.5 kB/185 kB 14%] [Connecting to securit
+                                                                               
+100% [2 Sources bzip2 0 B] [Connecting to security.ubuntu.com (91.189.88.152)]
+                                                                              
+Get:5 http://us-west-2.ec2.archive.ubuntu.com trusty-updates/multiverse Sources [7,747 B]
+
+                                                                              
+100% [2 Sources bzip2 0 B] [Waiting for headers] [Connecting to security.ubuntu
+                                                                               
+Get:6 http://us-west-2.ec2.archive.ubuntu.com trusty-updates/main amd64 Packages [995 kB]
+
+42% [2 Sources bzip2 0 B] [6 Packages 26.3 kB/995 kB 3%] [Connecting to securit
+                                                                               
+100% [2 Sources bzip2 0 B] [Connecting to security.ubuntu.com (91.189.88.152)]
+                                                                              
+Get:7 http://us-west-2.ec2.archive.ubuntu.com trusty-updates/restricted amd64 Packages [17.1 kB]
+
+                                                                              
+100% [2 Sources bzip2 0 B] [Waiting for headers] [Connecting to security.ubuntu
+                                                                               
+Get:8 http://us-west-2.ec2.archive.ubuntu.com trusty-updates/universe amd64 Packages [417 kB]
+
+81% [2 Sources bzip2 0 B] [8 Packages 25.7 kB/417 kB 6%] [Connecting to securit
+                                                                               
+100% [2 Sources bzip2 0 B] [Connecting to security.ubuntu.com (91.189.88.152)]
+                                                                              
+Get:9 http://us-west-2.ec2.archive.ubuntu.com trusty-updates/multiverse amd64 Packages [14.3 kB]
+
+                                                                              
+100% [2 Sources bzip2 0 B] [Waiting for headers] [Connecting to security.ubuntu
+                                                                               
+Get:10 http://us-west-2.ec2.archive.ubuntu.com trusty-updates/main Translation-en [489 kB]
+
+82% [2 Sources bzip2 0 B] [10 Translation-en 26.5 kB/489 kB 5%] [Connecting to 
+                                                                               
+100% [2 Sources bzip2 0 B] [Waiting for headers]
+                                                
+Get:11 http://us-west-2.ec2.archive.ubuntu.com trusty-updates/multiverse Translation-en [7,430 B]
+
+                                                
+100% [2 Sources bzip2 0 B] [Waiting for headers] [Waiting for headers]
+                                                                      
+Get:12 http://us-west-2.ec2.archive.ubuntu.com trusty-updates/restricted Translation-en [3,978 B]
+
+100% [2 Sources bzip2 0 B] [Waiting for headers] [Waiting for headers]
+                                                                      
+Get:13 http://us-west-2.ec2.archive.ubuntu.com trusty-updates/universe Translation-en [223 kB]
+
+                                                                      
+93% [2 Sources bzip2 0 B] [13 Translation-en 26.5 kB/223 kB 12%] [Waiting for h
+                                                                               
+100% [2 Sources bzip2 0 B] [Waiting for headers]
+                                                
+Get:14 http://us-west-2.ec2.archive.ubuntu.com trusty-backports/main Sources [9,712 B]
+
+                                                
+100% [2 Sources bzip2 0 B] [Waiting for headers] [Waiting for headers]
+                                                                      
+Get:15 http://us-west-2.ec2.archive.ubuntu.com trusty-backports/restricted Sources [28 B]
+
+100% [2 Sources bzip2 0 B] [Waiting for headers] [Waiting for headers]
+                                                                      
+Get:16 http://us-west-2.ec2.archive.ubuntu.com trusty-backports/universe Sources [35.3 kB]
+
+                                                                      
+100% [2 Sources bzip2 0 B] [16 Sources 26.5 kB/35.3 kB 75%] [Waiting for header
+                                                                               
+100% [2 Sources bzip2 0 B] [Waiting for headers] [Waiting for headers]
+                                                                      
+Get:17 http://us-west-2.ec2.archive.ubuntu.com trusty-backports/multiverse Sources [1,898 B]
+
+100% [2 Sources bzip2 0 B] [Waiting for headers] [Waiting for headers]
+                                                                      
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty-backports/main amd64 Packages
+
+100% [2 Sources bzip2 0 B] [Waiting for headers] [Waiting for headers]
+                                                                      
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty-backports/restricted amd64 Packages
+
+                                                                      
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty-backports/universe amd64 Packages
+
+                                                                      
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty-backports/multiverse amd64 Packages
+
+                                                                      
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty-backports/main Translation-en
+
+100% [2 Sources bzip2 0 B] [Waiting for headers] [Waiting for headers]
+                                                                      
+100% [Packages 59.1 kB] [2 Sources bzip2 0 B] [Waiting for headers] [Waiting fo
+                                                                               
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty-backports/multiverse Translation-en
+
+100% [Packages 59.1 kB] [2 Sources bzip2 0 B] [Waiting for headers] [Waiting fo
+                                                                               
+100% [2 Sources bzip2 0 B] [Waiting for headers] [Waiting for headers]
+                                                                      
+100% [Packages 0 B] [2 Sources bzip2 0 B] [Waiting for headers] [Waiting for he
+                                                                               
+100% [2 Sources bzip2 0 B] [Waiting for headers] [Waiting for headers]
+                                                                      
+100% [Packages 220 kB] [2 Sources bzip2 0 B] [Waiting for headers] [Waiting for
+                                                                               
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty-backports/restricted Translation-en
+
+100% [Packages 220 kB] [2 Sources bzip2 0 B] [Waiting for headers] [Waiting for
+                                                                               
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty-backports/universe Translation-en
+
+100% [Packages 220 kB] [2 Sources bzip2 0 B] [Waiting for headers] [Waiting for
+                                                                               
+Get:18 http://us-west-2.ec2.archive.ubuntu.com trusty/main Sources [1,064 kB]
+
+74% [Packages 220 kB] [2 Sources bzip2 0 B] [18 Sources 22.8 kB/1,064 kB 2%] [W
+81% [2 Sources bzip2 0 B] [18 Sources 258 kB/1,064 kB 24%] [Waiting for headers
+81% [Packages 3,396 B] [2 Sources bzip2 0 B] [18 Sources 258 kB/1,064 kB 24%] [
+81% [2 Sources bzip2 0 B] [18 Sources 258 kB/1,064 kB 24%] [Waiting for headers
+81% [Translation-en 28.1 kB] [2 Sources bzip2 0 B] [18 Sources 258 kB/1,064 kB 
+81% [2 Sources bzip2 0 B] [18 Sources 258 kB/1,064 kB 24%] [Waiting for headers
+81% [Translation-en 2,242 B] [2 Sources bzip2 0 B] [18 Sources 258 kB/1,064 kB 
+81% [2 Sources bzip2 0 B] [18 Sources 258 kB/1,064 kB 24%] [Waiting for headers
+81% [Translation-en 0 B] [2 Sources bzip2 0 B] [18 Sources 258 kB/1,064 kB 24%]
+81% [2 Sources bzip2 0 B] [18 Sources 258 kB/1,064 kB 24%] [Waiting for headers
+81% [Translation-en 155 kB] [2 Sources bzip2 0 B] [18 Sources 258 kB/1,064 kB 2
+82% [2 Sources bzip2 0 B] [18 Sources 258 kB/1,064 kB 24%] [Waiting for headers
+                                                                               
+98% [18 Sources 978 kB/1,064 kB 92%] [Waiting for headers]
+                                                          
+98% [3 Sources bzip2 0 B] [18 Sources 978 kB/1,064 kB 92%] [Waiting for headers
+                                                                               
+100% [3 Sources bzip2 0 B] [Waiting for headers]
+                                                
+100% [Waiting for headers]
+                          
+100% [4 Sources bzip2 0 B] [Waiting for headers]
+                                                
+Get:19 http://us-west-2.ec2.archive.ubuntu.com trusty/restricted Sources [5,433 B]
+
+                                                
+100% [4 Sources bzip2 0 B] [Waiting for headers] [Waiting for headers]
+                                                                      
+Get:20 http://us-west-2.ec2.archive.ubuntu.com trusty/universe Sources [6,399 kB]
+
+                                                                      
+42% [4 Sources bzip2 0 B] [20 Sources 158 kB/6,399 kB 2%] [Waiting for headers]
+                                                                               
+Get:21 http://security.ubuntu.com trusty-security InRelease [65.9 kB]
+
+48% [4 Sources bzip2 0 B] [20 Sources 760 kB/6,399 kB 12%] [21 InRelease 14.2 k
+                                                                               
+63% [20 Sources 2,398 kB/6,399 kB 37%] [21 InRelease 14.2 kB/65.9 kB 22%]
+                                                                         
+63% [5 Sources bzip2 0 B] [20 Sources 2,398 kB/6,399 kB 37%] [21 InRelease 14.2
+                                                                               
+63% [20 Sources 2,398 kB/6,399 kB 37%] [21 InRelease 14.2 kB/65.9 kB 22%]
+                                                                         
+63% [6 Packages bzip2 0 B] [20 Sources 2,464 kB/6,399 kB 39%] [21 InRelease 14.
+                                                                               
+100% [6 Packages bzip2 0 B] [21 InRelease 43.1 kB/65.9 kB 65%]
+                                                              
+Get:22 http://us-west-2.ec2.archive.ubuntu.com trusty/multiverse Sources [174 kB]
+
+                                                              
+98% [6 Packages bzip2 0 B] [22 Sources 26.5 kB/174 kB 15%] [21 InRelease 43.1 k
+                                                                               
+100% [6 Packages bzip2 0 B] [21 InRelease 43.1 kB/65.9 kB 65%]
+                                                              
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty/main amd64 Packages
+
+                                                              
+100% [6 Packages bzip2 0 B] [Waiting for headers] [21 InRelease 43.1 kB/65.9 kB
+                                                                               
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty/restricted amd64 Packages
+
+100% [Packages 8,235 kB] [6 Packages bzip2 0 B] [Waiting for headers] [21 InRel
+                                                                               
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty/universe amd64 Packages
+
+100% [Packages 8,235 kB] [6 Packages bzip2 0 B] [Waiting for headers] [21 InRel
+                                                                               
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty/multiverse amd64 Packages
+
+100% [Packages 8,235 kB] [6 Packages bzip2 0 B] [Waiting for headers] [21 InRel
+                                                                               
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty/main Translation-en
+
+100% [Packages 8,235 kB] [6 Packages bzip2 0 B] [Waiting for headers] [21 InRel
+                                                                               
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty/multiverse Translation-en
+
+100% [Packages 8,235 kB] [6 Packages bzip2 0 B] [Waiting for headers] [21 InRel
+                                                                               
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty/restricted Translation-en
+
+100% [Packages 8,235 kB] [6 Packages bzip2 0 B] [Waiting for headers] [21 InRel
+                                                                               
+Hit http://us-west-2.ec2.archive.ubuntu.com trusty/universe Translation-en
+
+100% [Packages 8,235 kB] [6 Packages bzip2 0 B] [Waiting for headers] [21 InRel
+                                                                               
+Ign http://us-west-2.ec2.archive.ubuntu.com trusty/main Translation-en_US
+
+100% [Packages 8,235 kB] [6 Packages bzip2 0 B] [Waiting for headers] [21 InRel
+                                                                               
+Ign http://us-west-2.ec2.archive.ubuntu.com trusty/multiverse Translation-en_US
+
+100% [Packages 8,235 kB] [6 Packages bzip2 0 B] [Waiting for headers] [21 InRel
+                                                                               
+Ign http://us-west-2.ec2.archive.ubuntu.com trusty/restricted Translation-en_US
+
+100% [Packages 8,235 kB] [6 Packages bzip2 0 B] [Waiting for headers] [21 InRel
+                                                                               
+100% [Packages 8,235 kB] [6 Packages bzip2 0 B] [Waiting for headers]
+                                                                     
+100% [Packages 8,235 kB] [6 Packages bzip2 0 B] [21 InRelease gpgv 65.9 kB] [Wa
+                                                                               
+Ign http://us-west-2.ec2.archive.ubuntu.com trusty/universe Translation-en_US
+
+                                                                               
+100% [Packages 8,235 kB] [6 Packages bzip2 0 B] [21 InRelease gpgv 65.9 kB]
+                                                                           
+100% [Packages 8,235 kB] [6 Packages bzip2 0 B]
+                                               
+Get:23 http://security.ubuntu.com trusty-security/main Sources [133 kB]
+
+                                               
+100% [Packages 8,235 kB] [6 Packages bzip2 0 B] [23 Sources 77.8 kB/133 kB 59%]
+                                                                               
+100% [6 Packages bzip2 0 B] [23 Sources 77.8 kB/133 kB 59%]
+                                                           
+100% [Packages 184 kB] [6 Packages bzip2 0 B] [23 Sources 77.8 kB/133 kB 59%]
+                                                                             
+100% [6 Packages bzip2 0 B] [23 Sources 77.8 kB/133 kB 59%]
+                                                           
+100% [Packages 31.7 MB] [6 Packages bzip2 0 B] [23 Sources 77.8 kB/133 kB 59%]
+                                                                              
+100% [Packages 31.7 MB] [6 Packages bzip2 0 B]
+                                              
+100% [Packages 31.7 MB] [Waiting for headers]
+                                             
+100% [Packages 31.7 MB] [7 Packages bzip2 0 B] [Waiting for headers]
+                                                                    
+100% [Packages 31.7 MB] [Waiting for headers]
+                                             
+100% [Packages 31.7 MB] [8 Packages bzip2 0 B] [Waiting for headers]
+                                                                    
+Get:24 http://security.ubuntu.com trusty-security/universe Sources [59.3 kB]
+
+                                                                    
+100% [Packages 31.7 MB] [8 Packages bzip2 0 B] [24 Sources 59.3 kB/59.3 kB 100%
+                                                                               
+100% [Packages 31.7 MB] [8 Packages bzip2 0 B]
+                                              
+Get:25 http://security.ubuntu.com trusty-security/main amd64 Packages [628 kB]
+
+                                              
+98% [Packages 31.7 MB] [8 Packages bzip2 0 B] [25 Packages 156 kB/628 kB 25%]
+                                                                             
+98% [Packages 31.7 MB] [25 Packages 156 kB/628 kB 25%]
+                                                      
+98% [Packages 31.7 MB] [9 Packages bzip2 0 B] [25 Packages 156 kB/628 kB 25%]
+                                                                             
+98% [Packages 31.7 MB] [25 Packages 156 kB/628 kB 25%]
+                                                      
+98% [Packages 31.7 MB] [10 Translation-en bzip2 0 B] [25 Packages 156 kB/628 kB
+                                                                               
+100% [Packages 31.7 MB] [10 Translation-en bzip2 0 B]
+                                                     
+Get:26 http://security.ubuntu.com trusty-security/universe amd64 Packages [172 kB]
+
+                                                     
+99% [Packages 31.7 MB] [10 Translation-en bzip2 0 B] [26 Packages 25.7 kB/172 k
+                                                                               
+100% [Packages 31.7 MB] [10 Translation-en bzip2 0 B]
+                                                     
+100% [Packages 31.7 MB] [Waiting for headers]
+                                             
+100% [Packages 31.7 MB] [11 Translation-en bzip2 0 B] [Waiting for headers]
+                                                                           
+100% [Packages 31.7 MB] [Waiting for headers]
+                                             
+100% [Packages 31.7 MB] [12 Translation-en bzip2 0 B] [Waiting for headers]
+                                                                           
+100% [Packages 31.7 MB] [Waiting for headers]
+                                             
+100% [Packages 31.7 MB] [13 Translation-en bzip2 0 B] [Waiting for headers]
+                                                                           
+100% [13 Translation-en bzip2 0 B] [Waiting for headers]
+                                                        
+100% [Packages 664 kB] [13 Translation-en bzip2 0 B] [Waiting for headers]
+                                                                          
+100% [13 Translation-en bzip2 0 B] [Waiting for headers]
+                                                        
+100% [Translation-en 4,149 kB] [13 Translation-en bzip2 0 B] [Waiting for heade
+                                                                               
+100% [Translation-en 4,149 kB] [Waiting for headers]
+                                                    
+100% [Translation-en 4,149 kB] [14 Sources bzip2 0 B] [Waiting for headers]
+                                                                           
+100% [Translation-en 4,149 kB] [Waiting for headers]
+                                                    
+100% [Translation-en 4,149 kB] [15 Sources bzip2 0 B] [Waiting for headers]
+                                                                           
+100% [Translation-en 4,149 kB] [Waiting for headers]
+                                                    
+100% [Translation-en 4,149 kB] [16 Sources bzip2 0 B] [Waiting for headers]
+                                                                           
+Get:27 http://security.ubuntu.com trusty-security/main Translation-en [340 kB]
+
+                                                                           
+100% [Translation-en 4,149 kB] [16 Sources bzip2 0 B] [27 Translation-en 180 kB
+                                                                               
+100% [Translation-en 4,149 kB] [27 Translation-en 202 kB/340 kB 60%]
+                                                                    
+100% [Translation-en 4,149 kB] [17 Sources bzip2 0 B] [27 Translation-en 202 kB
+                                                                               
+100% [Translation-en 4,149 kB] [27 Translation-en 202 kB/340 kB 60%]
+                                                                    
+100% [Translation-en 4,149 kB] [18 Sources bzip2 0 B] [27 Translation-en 202 kB
+                                                                               
+100% [18 Sources bzip2 0 B] [27 Translation-en 202 kB/340 kB 60%]
+                                                                 
+100% [Translation-en 409 kB] [18 Sources bzip2 0 B] [27 Translation-en 202 kB/3
+                                                                               
+100% [18 Sources bzip2 0 B] [27 Translation-en 202 kB/340 kB 60%]
+                                                                 
+100% [Translation-en 21.2 kB] [18 Sources bzip2 0 B] [27 Translation-en 202 kB/
+                                                                               
+100% [18 Sources bzip2 0 B] [27 Translation-en 202 kB/340 kB 60%]
+                                                                 
+100% [Translation-en 18.6 MB] [18 Sources bzip2 0 B] [27 Translation-en 202 kB/
+                                                                               
+100% [Translation-en 18.6 MB] [18 Sources bzip2 0 B] [Waiting for headers]
+                                                                          
+100% [Translation-en 18.6 MB] [Waiting for headers]
+                                                   
+100% [Translation-en 18.6 MB] [19 Sources bzip2 0 B] [Waiting for headers]
+                                                                          
+100% [Translation-en 18.6 MB] [Waiting for headers]
+                                                   
+100% [Translation-en 18.6 MB] [20 Sources bzip2 0 B] [Waiting for headers]
+                                                                          
+Get:28 http://security.ubuntu.com trusty-security/universe Translation-en [99.6 kB]
+
+                                                                          
+100% [Translation-en 18.6 MB] [20 Sources bzip2 0 B] [28 Translation-en 99.6 kB
+                                                                               
+100% [Translation-en 18.6 MB] [20 Sources bzip2 0 B]
+                                                    
+100% [20 Sources bzip2 0 B]
+100% [20 Sources bzip2 0 B]
+100% [20 Sources bzip2 0 B]
+                           
+100% [Working]
+              
+100% [22 Sources bzip2 0 B]
+                           
+100% [Working]
+              
+100% [23 Sources bzip2 0 B]
+                           
+100% [Working]
+              
+100% [24 Sources bzip2 0 B]
+                           
+100% [Working]
+              
+100% [25 Packages bzip2 0 B]
+                            
+100% [Working]
+              
+100% [26 Packages bzip2 0 B]
+                            
+100% [Working]
+              
+100% [27 Translation-en bzip2 0 B]
+                                  
+100% [Working]
+              
+100% [28 Translation-en bzip2 0 B]
+                                  
+100% [Working]
+              
+Fetched 12.0 MB in 4s (2,596 kB/s)
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 1%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 42%
+
+Reading package lists... 42%
+
+Reading package lists... 43%
+
+Reading package lists... 43%
+
+Reading package lists... 43%
+
+Reading package lists... 47%
+
+Reading package lists... 47%
+
+Reading package lists... 48%
+
+Reading package lists... 48%
+
+Reading package lists... 48%
+
+Reading package lists... 48%
+
+Reading package lists... 67%
+
+Reading package lists... 67%
+
+Reading package lists... 75%
+
+Reading package lists... 75%
+
+Reading package lists... 75%
+
+Reading package lists... 75%
+
+Reading package lists... 78%
+
+Reading package lists... 78%
+
+Reading package lists... 78%
+
+Reading package lists... 78%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 86%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 91%
+
+Reading package lists... 91%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+]0;ubuntu@ip-10-0-2-181: ~ubuntu@ip-10-0-2-181:~$ sudo apt-get upgrade
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 8%
+
+Reading state information... Done
+
+Calculating upgrade... Done
+The following packages have been kept back:
+  linux-headers-generic linux-headers-virtual linux-image-virtual
+  linux-virtual
+The following packages will be upgraded:
+  bind9-host cloud-init dnsutils grub-legacy-ec2 klibc-utils libbind9-90
+  libdns100 libgcrypt11 libisc95 libisccc90 libisccfg90 libklibc liblwres90
+  ntpdate
+14 upgraded, 0 newly installed, 0 to remove and 4 not upgraded.
+Need to get 1,707 kB of archives.
+After this operation, 3,072 B of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+
+
+0% [Working]
+            
+Get:1 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main libgcrypt11 amd64 1.5.3-2ubuntu4.5 [238 kB]
+
+            
+0% [1 libgcrypt11 0 B/238 kB 0%]
+                                
+14% [Working]
+             
+Get:2 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main ntpdate amd64 1:4.2.6.p5+dfsg-3ubuntu2.14.04.11 [57.5 kB]
+
+             
+14% [2 ntpdate 0 B/57.5 kB 0%]
+                              
+17% [Working]
+             
+Get:3 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main klibc-utils amd64 2.0.3-0ubuntu1.14.04.3 [107 kB]
+
+             
+17% [3 klibc-utils 0 B/107 kB 0%]
+                                 
+24% [Working]
+             
+Get:4 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main libklibc amd64 2.0.3-0ubuntu1.14.04.3 [40.6 kB]
+
+             
+24% [4 libklibc 0 B/40.6 kB 0%]
+                               
+26% [Working]
+             
+Get:5 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main bind9-host amd64 1:9.9.5.dfsg-3ubuntu0.15 [46.4 kB]
+
+             
+26% [5 bind9-host 0 B/46.4 kB 0%]
+                                 
+29% [Working]
+             
+Get:6 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main dnsutils amd64 1:9.9.5.dfsg-3ubuntu0.15 [96.8 kB]
+
+             
+29% [6 dnsutils 0 B/96.8 kB 0%]
+                               
+34% [Working]
+             
+Get:7 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main libisc95 amd64 1:9.9.5.dfsg-3ubuntu0.15 [148 kB]
+
+             
+34% [7 libisc95 0 B/148 kB 0%]
+                              
+43% [Working]
+             
+Get:8 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main libdns100 amd64 1:9.9.5.dfsg-3ubuntu0.15 [644 kB]
+
+             
+43% [8 libdns100 0 B/644 kB 0%]
+                               
+81% [Working]
+             
+Get:9 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main libisccc90 amd64 1:9.9.5.dfsg-3ubuntu0.15 [15.7 kB]
+
+             
+81% [9 libisccc90 0 B/15.7 kB 0%]
+                                 
+82% [Working]
+             
+Get:10 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main libisccfg90 amd64 1:9.9.5.dfsg-3ubuntu0.15 [36.0 kB]
+
+             
+82% [10 libisccfg90 0 B/36.0 kB 0%]
+                                   
+84% [Working]
+             
+Get:11 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main liblwres90 amd64 1:9.9.5.dfsg-3ubuntu0.15 [33.1 kB]
+
+             
+84% [11 liblwres90 0 B/33.1 kB 0%]
+                                  
+86% [Working]
+             
+Get:12 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main libbind9-90 amd64 1:9.9.5.dfsg-3ubuntu0.15 [22.0 kB]
+
+             
+86% [12 libbind9-90 0 B/22.0 kB 0%]
+                                   
+87% [Working]
+             
+Get:13 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main cloud-init all 0.7.5-0ubuntu1.22 [198 kB]
+
+             
+87% [13 cloud-init 0 B/198 kB 0%]
+                                 
+99% [Working]
+             
+Get:14 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main grub-legacy-ec2 all 0.7.5-0ubuntu1.22 [22.6 kB]
+
+             
+99% [14 grub-legacy-ec2 0 B/22.6 kB 0%]
+                                       
+100% [Working]
+              
+Fetched 1,707 kB in 0s (15.3 MB/s)
+Preconfiguring packages ...
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 51310 files and directories currently installed.)
+Preparing to unpack .../libgcrypt11_1.5.3-2ubuntu4.5_amd64.deb ...
+Unpacking libgcrypt11:amd64 (1.5.3-2ubuntu4.5) over (1.5.3-2ubuntu4.4) ...
+Preparing to unpack .../ntpdate_1%3a4.2.6.p5+dfsg-3ubuntu2.14.04.11_amd64.deb ...
+Unpacking ntpdate (1:4.2.6.p5+dfsg-3ubuntu2.14.04.11) over (1:4.2.6.p5+dfsg-3ubuntu2.14.04.10) ...
+Preparing to unpack .../klibc-utils_2.0.3-0ubuntu1.14.04.3_amd64.deb ...
+Unpacking klibc-utils (2.0.3-0ubuntu1.14.04.3) over (2.0.3-0ubuntu1.14.04.2) ...
+Preparing to unpack .../libklibc_2.0.3-0ubuntu1.14.04.3_amd64.deb ...
+Unpacking libklibc (2.0.3-0ubuntu1.14.04.3) over (2.0.3-0ubuntu1.14.04.2) ...
+Preparing to unpack .../bind9-host_1%3a9.9.5.dfsg-3ubuntu0.15_amd64.deb ...
+Unpacking bind9-host (1:9.9.5.dfsg-3ubuntu0.15) over (1:9.9.5.dfsg-3ubuntu0.14) ...
+Preparing to unpack .../dnsutils_1%3a9.9.5.dfsg-3ubuntu0.15_amd64.deb ...
+Unpacking dnsutils (1:9.9.5.dfsg-3ubuntu0.15) over (1:9.9.5.dfsg-3ubuntu0.14) ...
+Preparing to unpack .../libisc95_1%3a9.9.5.dfsg-3ubuntu0.15_amd64.deb ...
+Unpacking libisc95 (1:9.9.5.dfsg-3ubuntu0.15) over (1:9.9.5.dfsg-3ubuntu0.14) ...
+Preparing to unpack .../libdns100_1%3a9.9.5.dfsg-3ubuntu0.15_amd64.deb ...
+Unpacking libdns100 (1:9.9.5.dfsg-3ubuntu0.15) over (1:9.9.5.dfsg-3ubuntu0.14) ...
+Preparing to unpack .../libisccc90_1%3a9.9.5.dfsg-3ubuntu0.15_amd64.deb ...
+Unpacking libisccc90 (1:9.9.5.dfsg-3ubuntu0.15) over (1:9.9.5.dfsg-3ubuntu0.14) ...
+Preparing to unpack .../libisccfg90_1%3a9.9.5.dfsg-3ubuntu0.15_amd64.deb ...
+Unpacking libisccfg90 (1:9.9.5.dfsg-3ubuntu0.15) over (1:9.9.5.dfsg-3ubuntu0.14) ...
+Preparing to unpack .../liblwres90_1%3a9.9.5.dfsg-3ubuntu0.15_amd64.deb ...
+Unpacking liblwres90 (1:9.9.5.dfsg-3ubuntu0.15) over (1:9.9.5.dfsg-3ubuntu0.14) ...
+Preparing to unpack .../libbind9-90_1%3a9.9.5.dfsg-3ubuntu0.15_amd64.deb ...
+Unpacking libbind9-90 (1:9.9.5.dfsg-3ubuntu0.15) over (1:9.9.5.dfsg-3ubuntu0.14) ...
+Preparing to unpack .../cloud-init_0.7.5-0ubuntu1.22_all.deb ...
+Unpacking cloud-init (0.7.5-0ubuntu1.22) over (0.7.5-0ubuntu1.21) ...
+Preparing to unpack .../grub-legacy-ec2_0.7.5-0ubuntu1.22_all.deb ...
+Leaving 'diversion of /usr/sbin/grub-set-default to /usr/sbin/grub-set-default.real by grub-legacy-ec2'
+Unpacking grub-legacy-ec2 (0.7.5-0ubuntu1.22) over (0.7.5-0ubuntu1.21) ...
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+Processing triggers for ureadahead (0.100.0-16) ...
+Setting up libgcrypt11:amd64 (1.5.3-2ubuntu4.5) ...
+Setting up ntpdate (1:4.2.6.p5+dfsg-3ubuntu2.14.04.11) ...
+Setting up libklibc (2.0.3-0ubuntu1.14.04.3) ...
+Setting up klibc-utils (2.0.3-0ubuntu1.14.04.3) ...
+Setting up libisc95 (1:9.9.5.dfsg-3ubuntu0.15) ...
+Setting up libdns100 (1:9.9.5.dfsg-3ubuntu0.15) ...
+Setting up libisccc90 (1:9.9.5.dfsg-3ubuntu0.15) ...
+Setting up libisccfg90 (1:9.9.5.dfsg-3ubuntu0.15) ...
+Setting up libbind9-90 (1:9.9.5.dfsg-3ubuntu0.15) ...
+Setting up liblwres90 (1:9.9.5.dfsg-3ubuntu0.15) ...
+Setting up bind9-host (1:9.9.5.dfsg-3ubuntu0.15) ...
+Setting up dnsutils (1:9.9.5.dfsg-3ubuntu0.15) ...
+Setting up cloud-init (0.7.5-0ubuntu1.22) ...
+Leaving 'diversion of /etc/init/ureadahead.conf to /etc/init/ureadahead.conf.disabled by cloud-init'
+Setting up grub-legacy-ec2 (0.7.5-0ubuntu1.22) ...
+Searching for GRUB installation directory ... found: /boot/grub
+Searching for default file ... found: /boot/grub/default
+Testing for an existing GRUB menu.lst file ... found: /boot/grub/menu.lst
+Searching for splash image ... none found, skipping ...
+Found kernel: /boot/vmlinuz-3.13.0-121-generic
+Found kernel: /boot/vmlinuz-3.13.0-121-generic
+Updating /boot/grub/menu.lst ... done
+
+Processing triggers for libc-bin (2.19-0ubuntu6.13) ...
+]0;ubuntu@ip-10-0-2-181: ~ubuntu@ip-10-0-2-181:~$ exit
+exit
+
+Script done on Sun 09 Jul 2017 09:43:50 PM UTC
