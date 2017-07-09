@@ -7,5 +7,5 @@ Binary_Boiz_2
 	Private IP: 10.0.2.190
 	
 Binary_Boiz_3
-    Instance ID: i-07d6d0da6d89ba0a2
-        Private IP: 10.0.2.181
+    Instance ID: i-07d697c8126f63bbc
+        Private IP: 10.0.2.127
