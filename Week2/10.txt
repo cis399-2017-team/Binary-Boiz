@@ -1,441 +1,240 @@
-Script started on Sun 09 Jul 2017 09:42:25 PM UTC
-]0;ubuntu@ip-10-0-2-181: ~ubuntu@ip-10-0-2-181:~$ sudo apt-get update
+Script started on Sun 09 Jul 2017 10:57:55 PM UTC
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
 
+]0;ubuntu@ip-10-0-2-127: ~[01;32mubuntu@ip-10-0-2-127[00m:[01;34m~[00m$ sudo apt-get update
 
 0% [Working]
             
-Ign http://us-west-2.ec2.archive.ubuntu.com trusty InRelease
+Hit:1 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial InRelease
 
-            
-10% [Connecting to security.ubuntu.com (91.189.88.152)]
-                                                       
-Get:1 http://us-west-2.ec2.archive.ubuntu.com trusty-updates InRelease [65.9 kB]
-
-                                                       
-0% [1 InRelease 0 B/65.9 kB 0%] [Connecting to security.ubuntu.com (91.189.88.1
-                                                                               
-100% [Connecting to security.ubuntu.com (91.189.88.152)]
-                                                        
-Hit http://us-west-2.ec2.archive.ubuntu.com trusty-backports InRelease
-
-100% [Connecting to security.ubuntu.com (91.189.88.152)]
-                                                        
-100% [1 InRelease gpgv 65.9 kB] [Waiting for headers] [Connecting to security.u
-                                                                               
-Hit http://us-west-2.ec2.archive.ubuntu.com trusty Release.gpg
-
-100% [1 InRelease gpgv 65.9 kB] [Connecting to security.ubuntu.com (91.189.88.1
-                                                                               
-Hit http://us-west-2.ec2.archive.ubuntu.com trusty Release
-
-100% [1 InRelease gpgv 65.9 kB] [Connecting to security.ubuntu.com (91.189.88.1
-                                                                               
-100% [Connecting to security.ubuntu.com (91.189.88.152)]
-                                                        
-100% [InRelease gpgv 65.9 kB] [Waiting for headers] [Connecting to security.ubu
-                                                                               
-Get:2 http://us-west-2.ec2.archive.ubuntu.com trusty-updates/main Sources [400 kB]
-
-20% [InRelease gpgv 65.9 kB] [2 Sources 29.4 kB/400 kB 7%] [Connecting to secur
-58% [2 Sources 203 kB/400 kB 51%] [Connecting to security.ubuntu.com (91.189.88
-75% [Release gpgv 58.5 kB] [2 Sources 286 kB/400 kB 71%] [Connecting to securit
-100% [Release gpgv 58.5 kB] [Connecting to security.ubuntu.com (91.189.88.152)]
-                                                                               
-100% [Connecting to security.ubuntu.com (91.189.88.152)]
-                                                        
-100% [2 Sources bzip2 0 B] [Waiting for headers] [Connecting to security.ubuntu
-                                                                               
-Get:3 http://us-west-2.ec2.archive.ubuntu.com trusty-updates/restricted Sources [6,331 B]
-
-100% [2 Sources bzip2 0 B] [Waiting for headers] [Connecting to security.ubuntu
-                                                                               
-Get:4 http://us-west-2.ec2.archive.ubuntu.com trusty-updates/universe Sources [185 kB]
-
-76% [2 Sources bzip2 0 B] [4 Sources 26.5 kB/185 kB 14%] [Connecting to securit
-                                                                               
-100% [2 Sources bzip2 0 B] [Connecting to security.ubuntu.com (91.189.88.152)]
-                                                                              
-Get:5 http://us-west-2.ec2.archive.ubuntu.com trusty-updates/multiverse Sources [7,747 B]
-
-                                                                              
-100% [2 Sources bzip2 0 B] [Waiting for headers] [Connecting to security.ubuntu
-                                                                               
-Get:6 http://us-west-2.ec2.archive.ubuntu.com trusty-updates/main amd64 Packages [995 kB]
-
-42% [2 Sources bzip2 0 B] [6 Packages 26.3 kB/995 kB 3%] [Connecting to securit
-                                                                               
-100% [2 Sources bzip2 0 B] [Connecting to security.ubuntu.com (91.189.88.152)]
-                                                                              
-Get:7 http://us-west-2.ec2.archive.ubuntu.com trusty-updates/restricted amd64 Packages [17.1 kB]
-
-                                                                              
-100% [2 Sources bzip2 0 B] [Waiting for headers] [Connecting to security.ubuntu
-                                                                               
-Get:8 http://us-west-2.ec2.archive.ubuntu.com trusty-updates/universe amd64 Packages [417 kB]
-
-81% [2 Sources bzip2 0 B] [8 Packages 25.7 kB/417 kB 6%] [Connecting to securit
-                                                                               
-100% [2 Sources bzip2 0 B] [Connecting to security.ubuntu.com (91.189.88.152)]
-                                                                              
-Get:9 http://us-west-2.ec2.archive.ubuntu.com trusty-updates/multiverse amd64 Packages [14.3 kB]
-
-                                                                              
-100% [2 Sources bzip2 0 B] [Waiting for headers] [Connecting to security.ubuntu
-                                                                               
-Get:10 http://us-west-2.ec2.archive.ubuntu.com trusty-updates/main Translation-en [489 kB]
-
-82% [2 Sources bzip2 0 B] [10 Translation-en 26.5 kB/489 kB 5%] [Connecting to 
-                                                                               
-100% [2 Sources bzip2 0 B] [Waiting for headers]
-                                                
-Get:11 http://us-west-2.ec2.archive.ubuntu.com trusty-updates/multiverse Translation-en [7,430 B]
-
-                                                
-100% [2 Sources bzip2 0 B] [Waiting for headers] [Waiting for headers]
-                                                                      
-Get:12 http://us-west-2.ec2.archive.ubuntu.com trusty-updates/restricted Translation-en [3,978 B]
-
-100% [2 Sources bzip2 0 B] [Waiting for headers] [Waiting for headers]
-                                                                      
-Get:13 http://us-west-2.ec2.archive.ubuntu.com trusty-updates/universe Translation-en [223 kB]
-
-                                                                      
-93% [2 Sources bzip2 0 B] [13 Translation-en 26.5 kB/223 kB 12%] [Waiting for h
-                                                                               
-100% [2 Sources bzip2 0 B] [Waiting for headers]
-                                                
-Get:14 http://us-west-2.ec2.archive.ubuntu.com trusty-backports/main Sources [9,712 B]
-
-                                                
-100% [2 Sources bzip2 0 B] [Waiting for headers] [Waiting for headers]
-                                                                      
-Get:15 http://us-west-2.ec2.archive.ubuntu.com trusty-backports/restricted Sources [28 B]
-
-100% [2 Sources bzip2 0 B] [Waiting for headers] [Waiting for headers]
-                                                                      
-Get:16 http://us-west-2.ec2.archive.ubuntu.com trusty-backports/universe Sources [35.3 kB]
-
-                                                                      
-100% [2 Sources bzip2 0 B] [16 Sources 26.5 kB/35.3 kB 75%] [Waiting for header
-                                                                               
-100% [2 Sources bzip2 0 B] [Waiting for headers] [Waiting for headers]
-                                                                      
-Get:17 http://us-west-2.ec2.archive.ubuntu.com trusty-backports/multiverse Sources [1,898 B]
-
-100% [2 Sources bzip2 0 B] [Waiting for headers] [Waiting for headers]
-                                                                      
-Hit http://us-west-2.ec2.archive.ubuntu.com trusty-backports/main amd64 Packages
-
-100% [2 Sources bzip2 0 B] [Waiting for headers] [Waiting for headers]
-                                                                      
-Hit http://us-west-2.ec2.archive.ubuntu.com trusty-backports/restricted amd64 Packages
-
-                                                                      
-Hit http://us-west-2.ec2.archive.ubuntu.com trusty-backports/universe amd64 Packages
-
-                                                                      
-Hit http://us-west-2.ec2.archive.ubuntu.com trusty-backports/multiverse amd64 Packages
-
-                                                                      
-Hit http://us-west-2.ec2.archive.ubuntu.com trusty-backports/main Translation-en
-
-100% [2 Sources bzip2 0 B] [Waiting for headers] [Waiting for headers]
-                                                                      
-100% [Packages 59.1 kB] [2 Sources bzip2 0 B] [Waiting for headers] [Waiting fo
-                                                                               
-Hit http://us-west-2.ec2.archive.ubuntu.com trusty-backports/multiverse Translation-en
-
-100% [Packages 59.1 kB] [2 Sources bzip2 0 B] [Waiting for headers] [Waiting fo
-                                                                               
-100% [2 Sources bzip2 0 B] [Waiting for headers] [Waiting for headers]
-                                                                      
-100% [Packages 0 B] [2 Sources bzip2 0 B] [Waiting for headers] [Waiting for he
-                                                                               
-100% [2 Sources bzip2 0 B] [Waiting for headers] [Waiting for headers]
-                                                                      
-100% [Packages 220 kB] [2 Sources bzip2 0 B] [Waiting for headers] [Waiting for
-                                                                               
-Hit http://us-west-2.ec2.archive.ubuntu.com trusty-backports/restricted Translation-en
-
-100% [Packages 220 kB] [2 Sources bzip2 0 B] [Waiting for headers] [Waiting for
-                                                                               
-Hit http://us-west-2.ec2.archive.ubuntu.com trusty-backports/universe Translation-en
-
-100% [Packages 220 kB] [2 Sources bzip2 0 B] [Waiting for headers] [Waiting for
-                                                                               
-Get:18 http://us-west-2.ec2.archive.ubuntu.com trusty/main Sources [1,064 kB]
-
-74% [Packages 220 kB] [2 Sources bzip2 0 B] [18 Sources 22.8 kB/1,064 kB 2%] [W
-81% [2 Sources bzip2 0 B] [18 Sources 258 kB/1,064 kB 24%] [Waiting for headers
-81% [Packages 3,396 B] [2 Sources bzip2 0 B] [18 Sources 258 kB/1,064 kB 24%] [
-81% [2 Sources bzip2 0 B] [18 Sources 258 kB/1,064 kB 24%] [Waiting for headers
-81% [Translation-en 28.1 kB] [2 Sources bzip2 0 B] [18 Sources 258 kB/1,064 kB 
-81% [2 Sources bzip2 0 B] [18 Sources 258 kB/1,064 kB 24%] [Waiting for headers
-81% [Translation-en 2,242 B] [2 Sources bzip2 0 B] [18 Sources 258 kB/1,064 kB 
-81% [2 Sources bzip2 0 B] [18 Sources 258 kB/1,064 kB 24%] [Waiting for headers
-81% [Translation-en 0 B] [2 Sources bzip2 0 B] [18 Sources 258 kB/1,064 kB 24%]
-81% [2 Sources bzip2 0 B] [18 Sources 258 kB/1,064 kB 24%] [Waiting for headers
-81% [Translation-en 155 kB] [2 Sources bzip2 0 B] [18 Sources 258 kB/1,064 kB 2
-82% [2 Sources bzip2 0 B] [18 Sources 258 kB/1,064 kB 24%] [Waiting for headers
-                                                                               
-98% [18 Sources 978 kB/1,064 kB 92%] [Waiting for headers]
-                                                          
-98% [3 Sources bzip2 0 B] [18 Sources 978 kB/1,064 kB 92%] [Waiting for headers
-                                                                               
-100% [3 Sources bzip2 0 B] [Waiting for headers]
-                                                
-100% [Waiting for headers]
-                          
-100% [4 Sources bzip2 0 B] [Waiting for headers]
-                                                
-Get:19 http://us-west-2.ec2.archive.ubuntu.com trusty/restricted Sources [5,433 B]
-
-                                                
-100% [4 Sources bzip2 0 B] [Waiting for headers] [Waiting for headers]
-                                                                      
-Get:20 http://us-west-2.ec2.archive.ubuntu.com trusty/universe Sources [6,399 kB]
-
-                                                                      
-42% [4 Sources bzip2 0 B] [20 Sources 158 kB/6,399 kB 2%] [Waiting for headers]
-                                                                               
-Get:21 http://security.ubuntu.com trusty-security InRelease [65.9 kB]
-
-48% [4 Sources bzip2 0 B] [20 Sources 760 kB/6,399 kB 12%] [21 InRelease 14.2 k
-                                                                               
-63% [20 Sources 2,398 kB/6,399 kB 37%] [21 InRelease 14.2 kB/65.9 kB 22%]
-                                                                         
-63% [5 Sources bzip2 0 B] [20 Sources 2,398 kB/6,399 kB 37%] [21 InRelease 14.2
-                                                                               
-63% [20 Sources 2,398 kB/6,399 kB 37%] [21 InRelease 14.2 kB/65.9 kB 22%]
-                                                                         
-63% [6 Packages bzip2 0 B] [20 Sources 2,464 kB/6,399 kB 39%] [21 InRelease 14.
-                                                                               
-100% [6 Packages bzip2 0 B] [21 InRelease 43.1 kB/65.9 kB 65%]
-                                                              
-Get:22 http://us-west-2.ec2.archive.ubuntu.com trusty/multiverse Sources [174 kB]
-
-                                                              
-98% [6 Packages bzip2 0 B] [22 Sources 26.5 kB/174 kB 15%] [21 InRelease 43.1 k
-                                                                               
-100% [6 Packages bzip2 0 B] [21 InRelease 43.1 kB/65.9 kB 65%]
-                                                              
-Hit http://us-west-2.ec2.archive.ubuntu.com trusty/main amd64 Packages
-
-                                                              
-100% [6 Packages bzip2 0 B] [Waiting for headers] [21 InRelease 43.1 kB/65.9 kB
-                                                                               
-Hit http://us-west-2.ec2.archive.ubuntu.com trusty/restricted amd64 Packages
-
-100% [Packages 8,235 kB] [6 Packages bzip2 0 B] [Waiting for headers] [21 InRel
-                                                                               
-Hit http://us-west-2.ec2.archive.ubuntu.com trusty/universe amd64 Packages
-
-100% [Packages 8,235 kB] [6 Packages bzip2 0 B] [Waiting for headers] [21 InRel
-                                                                               
-Hit http://us-west-2.ec2.archive.ubuntu.com trusty/multiverse amd64 Packages
-
-100% [Packages 8,235 kB] [6 Packages bzip2 0 B] [Waiting for headers] [21 InRel
-                                                                               
-Hit http://us-west-2.ec2.archive.ubuntu.com trusty/main Translation-en
-
-100% [Packages 8,235 kB] [6 Packages bzip2 0 B] [Waiting for headers] [21 InRel
-                                                                               
-Hit http://us-west-2.ec2.archive.ubuntu.com trusty/multiverse Translation-en
-
-100% [Packages 8,235 kB] [6 Packages bzip2 0 B] [Waiting for headers] [21 InRel
-                                                                               
-Hit http://us-west-2.ec2.archive.ubuntu.com trusty/restricted Translation-en
-
-100% [Packages 8,235 kB] [6 Packages bzip2 0 B] [Waiting for headers] [21 InRel
-                                                                               
-Hit http://us-west-2.ec2.archive.ubuntu.com trusty/universe Translation-en
-
-100% [Packages 8,235 kB] [6 Packages bzip2 0 B] [Waiting for headers] [21 InRel
-                                                                               
-Ign http://us-west-2.ec2.archive.ubuntu.com trusty/main Translation-en_US
-
-100% [Packages 8,235 kB] [6 Packages bzip2 0 B] [Waiting for headers] [21 InRel
-                                                                               
-Ign http://us-west-2.ec2.archive.ubuntu.com trusty/multiverse Translation-en_US
-
-100% [Packages 8,235 kB] [6 Packages bzip2 0 B] [Waiting for headers] [21 InRel
-                                                                               
-Ign http://us-west-2.ec2.archive.ubuntu.com trusty/restricted Translation-en_US
-
-100% [Packages 8,235 kB] [6 Packages bzip2 0 B] [Waiting for headers] [21 InRel
-                                                                               
-100% [Packages 8,235 kB] [6 Packages bzip2 0 B] [Waiting for headers]
-                                                                     
-100% [Packages 8,235 kB] [6 Packages bzip2 0 B] [21 InRelease gpgv 65.9 kB] [Wa
-                                                                               
-Ign http://us-west-2.ec2.archive.ubuntu.com trusty/universe Translation-en_US
-
-                                                                               
-100% [Packages 8,235 kB] [6 Packages bzip2 0 B] [21 InRelease gpgv 65.9 kB]
-                                                                           
-100% [Packages 8,235 kB] [6 Packages bzip2 0 B]
-                                               
-Get:23 http://security.ubuntu.com trusty-security/main Sources [133 kB]
-
-                                               
-100% [Packages 8,235 kB] [6 Packages bzip2 0 B] [23 Sources 77.8 kB/133 kB 59%]
-                                                                               
-100% [6 Packages bzip2 0 B] [23 Sources 77.8 kB/133 kB 59%]
-                                                           
-100% [Packages 184 kB] [6 Packages bzip2 0 B] [23 Sources 77.8 kB/133 kB 59%]
-                                                                             
-100% [6 Packages bzip2 0 B] [23 Sources 77.8 kB/133 kB 59%]
-                                                           
-100% [Packages 31.7 MB] [6 Packages bzip2 0 B] [23 Sources 77.8 kB/133 kB 59%]
-                                                                              
-100% [Packages 31.7 MB] [6 Packages bzip2 0 B]
-                                              
-100% [Packages 31.7 MB] [Waiting for headers]
-                                             
-100% [Packages 31.7 MB] [7 Packages bzip2 0 B] [Waiting for headers]
-                                                                    
-100% [Packages 31.7 MB] [Waiting for headers]
-                                             
-100% [Packages 31.7 MB] [8 Packages bzip2 0 B] [Waiting for headers]
-                                                                    
-Get:24 http://security.ubuntu.com trusty-security/universe Sources [59.3 kB]
-
-                                                                    
-100% [Packages 31.7 MB] [8 Packages bzip2 0 B] [24 Sources 59.3 kB/59.3 kB 100%
-                                                                               
-100% [Packages 31.7 MB] [8 Packages bzip2 0 B]
-                                              
-Get:25 http://security.ubuntu.com trusty-security/main amd64 Packages [628 kB]
-
-                                              
-98% [Packages 31.7 MB] [8 Packages bzip2 0 B] [25 Packages 156 kB/628 kB 25%]
-                                                                             
-98% [Packages 31.7 MB] [25 Packages 156 kB/628 kB 25%]
+0% [Connecting to security.ubuntu.com (91.189.88.149)]
                                                       
-98% [Packages 31.7 MB] [9 Packages bzip2 0 B] [25 Packages 156 kB/628 kB 25%]
-                                                                             
-98% [Packages 31.7 MB] [25 Packages 156 kB/628 kB 25%]
+Get:2 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates InRelease [102 kB]
+
                                                       
-98% [Packages 31.7 MB] [10 Translation-en bzip2 0 B] [25 Packages 156 kB/628 kB
-                                                                               
-100% [Packages 31.7 MB] [10 Translation-en bzip2 0 B]
-                                                     
-Get:26 http://security.ubuntu.com trusty-security/universe amd64 Packages [172 kB]
+Get:3 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports InRelease [102 kB]
 
-                                                     
-99% [Packages 31.7 MB] [10 Translation-en bzip2 0 B] [26 Packages 25.7 kB/172 k
-                                                                               
-100% [Packages 31.7 MB] [10 Translation-en bzip2 0 B]
-                                                     
-100% [Packages 31.7 MB] [Waiting for headers]
-                                             
-100% [Packages 31.7 MB] [11 Translation-en bzip2 0 B] [Waiting for headers]
-                                                                           
-100% [Packages 31.7 MB] [Waiting for headers]
-                                             
-100% [Packages 31.7 MB] [12 Translation-en bzip2 0 B] [Waiting for headers]
-                                                                           
-100% [Packages 31.7 MB] [Waiting for headers]
-                                             
-100% [Packages 31.7 MB] [13 Translation-en bzip2 0 B] [Waiting for headers]
-                                                                           
-100% [13 Translation-en bzip2 0 B] [Waiting for headers]
-                                                        
-100% [Packages 664 kB] [13 Translation-en bzip2 0 B] [Waiting for headers]
-                                                                          
-100% [13 Translation-en bzip2 0 B] [Waiting for headers]
-                                                        
-100% [Translation-en 4,149 kB] [13 Translation-en bzip2 0 B] [Waiting for heade
-                                                                               
-100% [Translation-en 4,149 kB] [Waiting for headers]
-                                                    
-100% [Translation-en 4,149 kB] [14 Sources bzip2 0 B] [Waiting for headers]
-                                                                           
-100% [Translation-en 4,149 kB] [Waiting for headers]
-                                                    
-100% [Translation-en 4,149 kB] [15 Sources bzip2 0 B] [Waiting for headers]
-                                                                           
-100% [Translation-en 4,149 kB] [Waiting for headers]
-                                                    
-100% [Translation-en 4,149 kB] [16 Sources bzip2 0 B] [Waiting for headers]
-                                                                           
-Get:27 http://security.ubuntu.com trusty-security/main Translation-en [340 kB]
+0% [Connecting to security.ubuntu.com (91.189.88.149)]
+0% [1 InRelease gpgv 247 kB] [Connecting to security.ubuntu.com (91.189.88.149)]
+                                                                                
+0% [Connecting to security.ubuntu.com (91.189.88.149)]
+0% [2 InRelease gpgv 102 kB] [Waiting for headers] [Connecting to security.ubuntu.com (91.189.88.149)]
+                                                                                                      
+Get:4 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial/main Sources [868 kB]
 
-                                                                           
-100% [Translation-en 4,149 kB] [16 Sources bzip2 0 B] [27 Translation-en 180 kB
-                                                                               
-100% [Translation-en 4,149 kB] [27 Translation-en 202 kB/340 kB 60%]
-                                                                    
-100% [Translation-en 4,149 kB] [17 Sources bzip2 0 B] [27 Translation-en 202 kB
-                                                                               
-100% [Translation-en 4,149 kB] [27 Translation-en 202 kB/340 kB 60%]
-                                                                    
-100% [Translation-en 4,149 kB] [18 Sources bzip2 0 B] [27 Translation-en 202 kB
-                                                                               
-100% [18 Sources bzip2 0 B] [27 Translation-en 202 kB/340 kB 60%]
-                                                                 
-100% [Translation-en 409 kB] [18 Sources bzip2 0 B] [27 Translation-en 202 kB/3
-                                                                               
-100% [18 Sources bzip2 0 B] [27 Translation-en 202 kB/340 kB 60%]
-                                                                 
-100% [Translation-en 21.2 kB] [18 Sources bzip2 0 B] [27 Translation-en 202 kB/
-                                                                               
-100% [18 Sources bzip2 0 B] [27 Translation-en 202 kB/340 kB 60%]
-                                                                 
-100% [Translation-en 18.6 MB] [18 Sources bzip2 0 B] [27 Translation-en 202 kB/
-                                                                               
-100% [Translation-en 18.6 MB] [18 Sources bzip2 0 B] [Waiting for headers]
-                                                                          
-100% [Translation-en 18.6 MB] [Waiting for headers]
-                                                   
-100% [Translation-en 18.6 MB] [19 Sources bzip2 0 B] [Waiting for headers]
-                                                                          
-100% [Translation-en 18.6 MB] [Waiting for headers]
-                                                   
-100% [Translation-en 18.6 MB] [20 Sources bzip2 0 B] [Waiting for headers]
-                                                                          
-Get:28 http://security.ubuntu.com trusty-security/universe Translation-en [99.6 kB]
+0% [2 InRelease gpgv 102 kB] [4 Sources 26.6 kB/868 kB 3%] [Connecting to security.ubuntu.com (91.189.88.149)]
+                                                                                                              
+0% [2 InRelease gpgv 102 kB] [Connecting to security.ubuntu.com (91.189.88.149)]
+0% [4 Sources store 0 B] [2 InRelease gpgv 102 kB] [Waiting for headers] [Waiting for headers]
+                                                                                              
+Get:5 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial/restricted Sources [4,808 B]
 
-                                                                          
-100% [Translation-en 18.6 MB] [20 Sources bzip2 0 B] [28 Translation-en 99.6 kB
+0% [4 Sources store 0 B] [2 InRelease gpgv 102 kB] [Waiting for headers] [Waiting for headers]
+                                                                                              
+Get:6 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial/universe Sources [7,728 kB]
+
+0% [4 Sources store 0 B] [2 InRelease gpgv 102 kB] [6 Sources 232 kB/7,728 kB 3%] [Waiting for headers]
+                                                                                                       
+Get:7 http://security.ubuntu.com/ubuntu xenial-security InRelease [102 kB]
+
+0% [4 Sources store 0 B] [2 InRelease gpgv 102 kB] [6 Sources 4,063 kB/7,728 kB 53%] [7 InRelease 14.2 kB/102 kB 14%]
+                                                                                                                     
+0% [4 Sources store 0 B] [6 Sources 4,915 kB/7,728 kB 64%] [7 InRelease 14.2 kB/102 kB 14%]
+0% [4 Sources store 0 B] [3 InRelease gpgv 102 kB] [6 Sources 4,915 kB/7,728 kB 64%] [7 InRelease 14.2 kB/102 kB 14%]
+                                                                                                                     
+0% [4 Sources store 0 B] [3 InRelease gpgv 102 kB] [Waiting for headers] [7 InRelease 43.1 kB/102 kB 42%]
+                                                                                                         
+Get:8 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial/multiverse Sources [179 kB]
+
+0% [4 Sources store 0 B] [3 InRelease gpgv 102 kB] [8 Sources 92.2 kB/179 kB 51%] [7 InRelease 43.1 kB/102 kB 42%]
+                                                                                                                  
+0% [4 Sources store 0 B] [3 InRelease gpgv 102 kB] [7 InRelease 43.1 kB/102 kB 42%]
+                                                                                   
+Get:9 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main Sources [257 kB]
+
+0% [4 Sources store 0 B] [3 InRelease gpgv 102 kB] [9 Sources 0 B/257 kB 0%] [7 InRelease 43.1 kB/102 kB 42%]
+                                                                                                             
+0% [4 Sources store 0 B] [3 InRelease gpgv 102 kB] [7 InRelease 43.1 kB/102 kB 42%]
+                                                                                   
+Get:10 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/restricted Sources [3,000 B]
+
+0% [4 Sources store 0 B] [3 InRelease gpgv 102 kB] [Waiting for headers] [7 InRelease 43.1 kB/102 kB 42%]
+                                                                                                         
+0% [3 InRelease gpgv 102 kB] [Waiting for headers] [7 InRelease 43.1 kB/102 kB 42%]
+0% [5 Sources store 0 B] [3 InRelease gpgv 102 kB] [Waiting for headers] [7 InRelease 43.1 kB/102 kB 42%]
+                                                                                                         
+Get:11 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/universe Sources [163 kB]
+
+0% [5 Sources store 0 B] [3 InRelease gpgv 102 kB] [Waiting for headers] [7 InRelease 43.1 kB/102 kB 42%]
+                                                                                                         
+Get:12 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/multiverse Sources [5,668 B]
+
+0% [5 Sources store 23.8 kB] [3 InRelease gpgv 102 kB] [12 Sources 0 B/5,668 B 0%] [7 InRelease 43.1 kB/102 kB 42%]
+                                                                                                                   
+0% [5 Sources store 23.8 kB] [3 InRelease gpgv 102 kB] [7 InRelease 43.1 kB/102 kB 42%]
+                                                                                       
+0% [3 InRelease gpgv 102 kB] [Waiting for headers] [7 InRelease 43.1 kB/102 kB 42%]
+0% [6 Sources store 0 B] [3 InRelease gpgv 102 kB] [Waiting for headers] [7 InRelease 43.1 kB/102 kB 42%]
+                                                                                                         
+Get:13 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [572 kB]
+
+0% [6 Sources store 0 B] [3 InRelease gpgv 102 kB] [13 Packages 0 B/572 kB 0%] [7 InRelease 43.1 kB/102 kB 42%]
+                                                                                                               
+0% [6 Sources store 0 B] [3 InRelease gpgv 102 kB] [7 InRelease 43.1 kB/102 kB 42%]
+                                                                                   
+Get:14 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en [232 kB]
+
+0% [6 Sources store 0 B] [3 InRelease gpgv 102 kB] [14 Translation-en 0 B/232 kB 0%] [7 InRelease 43.1 kB/102 kB 42%]
+                                                                                                                     
+0% [6 Sources store 0 B] [3 InRelease gpgv 102 kB] [7 InRelease 43.1 kB/102 kB 42%]
+                                                                                   
+Get:15 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages [492 kB]
+
+0% [6 Sources store 0 B] [3 InRelease gpgv 102 kB] [15 Packages 26.4 kB/492 kB 5%] [7 InRelease 43.1 kB/102 kB 42%]
+                                                                                                                   
+0% [6 Sources store 0 B] [3 InRelease gpgv 102 kB] [7 InRelease 43.1 kB/102 kB 42%]
+                                                                                   
+Get:16 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en [195 kB]
+
+0% [6 Sources store 0 B] [3 InRelease gpgv 102 kB] [16 Translation-en 0 B/195 kB 0%] [7 InRelease 43.1 kB/102 kB 42%]
+                                                                                                                     
+0% [6 Sources store 0 B] [3 InRelease gpgv 102 kB] [7 InRelease 43.1 kB/102 kB 42%]
+                                                                                   
+0% [6 Sources store 0 B] [7 InRelease 43.1 kB/102 kB 42%]
+                                                         
+Get:17 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports/main Sources [3,312 B]
+
+0% [6 Sources store 0 B] [17 Sources 0 B/3,312 B 0%] [7 InRelease 43.1 kB/102 kB 42%]
+                                                                                     
+0% [6 Sources store 0 B] [7 InRelease 43.1 kB/102 kB 42%]
+                                                         
+Get:18 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports/universe Sources [4,384 B]
+
+0% [6 Sources store 0 B] [Waiting for headers] [7 InRelease 43.1 kB/102 kB 42%]
                                                                                
-100% [Translation-en 18.6 MB] [20 Sources bzip2 0 B]
-                                                    
-100% [20 Sources bzip2 0 B]
-100% [20 Sources bzip2 0 B]
-100% [20 Sources bzip2 0 B]
+Get:19 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports/main amd64 Packages [4,680 B]
+
+0% [6 Sources store 0 B] [Waiting for headers] [7 InRelease 43.1 kB/102 kB 42%]
+                                                                               
+Get:20 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages [5,804 B]
+
+0% [6 Sources store 0 B] [Waiting for headers] [7 InRelease 43.1 kB/102 kB 42%]
+                                                                               
+Get:21 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-en [3,004 B]
+
+                                                                               
+0% [6 Sources store 0 B] [7 InRelease 43.1 kB/102 kB 42%]
+                                                         
+0% [6 Sources store 0 B]
+0% [6 Sources store 0 B] [7 InRelease gpgv 102 kB]
+                                                  
+89% [6 Sources store 0 B]
+                         
+Get:22 http://security.ubuntu.com/ubuntu xenial-security/main Sources [78.4 kB]
+
+90% [6 Sources store 0 B]
+                         
+Get:23 http://security.ubuntu.com/ubuntu xenial-security/restricted Sources [2,604 B]
+
+90% [6 Sources store 0 B] [Waiting for headers]
+                                               
+Get:24 http://security.ubuntu.com/ubuntu xenial-security/universe Sources [35.0 kB]
+
+90% [6 Sources store 0 B] [Waiting for headers]
+                                               
+Get:25 http://security.ubuntu.com/ubuntu xenial-security/multiverse Sources [1,144 B]
+
+90% [6 Sources store 0 B] [Waiting for headers]
+                                               
+Get:26 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages [300 kB]
+
+91% [6 Sources store 0 B] [26 Packages 159 kB/300 kB 53%]
+                                                         
+92% [6 Sources store 0 B] [Waiting for headers]
+                                               
+92% [Waiting for headers]
+92% [8 Sources store 0 B] [Waiting for headers]
+                                               
+93% [Waiting for headers]
+93% [9 Sources store 0 B] [Waiting for headers]
+                                               
+93% [Waiting for headers]
+93% [10 Sources store 0 B] [Waiting for headers]
+                                                
+93% [Waiting for headers]
+93% [11 Sources store 0 B] [Waiting for headers]
+                                                
+93% [Waiting for headers]
+93% [12 Sources store 0 B] [Waiting for headers]
+                                                
+94% [Waiting for headers]
+94% [13 Packages store 0 B] [Waiting for headers]
+                                                 
+Get:27 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en [128 kB]
+
+95% [13 Packages store 0 B] [Waiting for headers]
+                                                 
+95% [Waiting for headers]
+95% [14 Translation-en store 0 B] [Waiting for headers]
+                                                       
+95% [Waiting for headers]
+95% [15 Packages store 0 B] [Waiting for headers]
+                                                 
+Get:28 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages [141 kB]
+
+96% [15 Packages store 0 B] [Waiting for headers]
+                                                 
+96% [Waiting for headers]
+96% [16 Translation-en store 0 B] [Waiting for headers]
+                                                       
+96% [Waiting for headers]
+96% [17 Sources store 0 B] [Waiting for headers]
+                                                
+97% [Waiting for headers]
+97% [18 Sources store 0 B] [Waiting for headers]
+                                                
+97% [Waiting for headers]
+97% [19 Packages store 0 B] [Waiting for headers]
+                                                 
+97% [Waiting for headers]
+97% [20 Packages store 0 B] [Waiting for headers]
+                                                 
+97% [Waiting for headers]
+97% [21 Translation-en store 0 B] [Waiting for headers]
+                                                       
+98% [Waiting for headers]
+98% [22 Sources store 0 B] [Waiting for headers]
+                                                
+98% [Waiting for headers]
+98% [23 Sources store 0 B] [Waiting for headers]
+                                                
+98% [Waiting for headers]
+98% [24 Sources store 0 B] [Waiting for headers]
+                                                
+98% [Waiting for headers]
+98% [25 Sources store 0 B] [Waiting for headers]
+                                                
+99% [Waiting for headers]
+99% [26 Packages store 0 B] [Waiting for headers]
+                                                 
+Get:29 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en [72.8 kB]
+
+                                                 
+99% [26 Packages store 0 B]
                            
+99% [Working]
+99% [27 Translation-en store 0 B]
+                                 
 100% [Working]
-              
-100% [22 Sources bzip2 0 B]
-                           
-100% [Working]
-              
-100% [23 Sources bzip2 0 B]
-                           
-100% [Working]
-              
-100% [24 Sources bzip2 0 B]
-                           
-100% [Working]
-              
-100% [25 Packages bzip2 0 B]
+100% [28 Packages store 0 B]
                             
 100% [Working]
-              
-100% [26 Packages bzip2 0 B]
-                            
-100% [Working]
-              
-100% [27 Translation-en bzip2 0 B]
+100% [29 Translation-en store 0 B]
                                   
 100% [Working]
               
-100% [28 Translation-en bzip2 0 B]
-                                  
-100% [Working]
-              
-Fetched 12.0 MB in 4s (2,596 kB/s)
+Fetched 11.8 MB in 2s (5,266 kB/s)
 
 Reading package lists... 0%
 
@@ -443,115 +242,115 @@ Reading package lists... 0%
 
 Reading package lists... 1%
 
-Reading package lists... 8%
+Reading package lists... 7%
 
-Reading package lists... 8%
+Reading package lists... 7%
 
-Reading package lists... 8%
+Reading package lists... 11%
 
-Reading package lists... 8%
+Reading package lists... 11%
 
-Reading package lists... 42%
+Reading package lists... 11%
 
-Reading package lists... 42%
+Reading package lists... 11%
 
-Reading package lists... 43%
+Reading package lists... 11%
 
-Reading package lists... 43%
+Reading package lists... 11%
 
-Reading package lists... 43%
+Reading package lists... 55%
 
-Reading package lists... 47%
+Reading package lists... 55%
 
-Reading package lists... 47%
+Reading package lists... 80%
 
-Reading package lists... 48%
+Reading package lists... 80%
 
-Reading package lists... 48%
+Reading package lists... 81%
 
-Reading package lists... 48%
+Reading package lists... 81%
 
-Reading package lists... 48%
+Reading package lists... 82%
 
-Reading package lists... 67%
-
-Reading package lists... 67%
-
-Reading package lists... 75%
-
-Reading package lists... 75%
-
-Reading package lists... 75%
-
-Reading package lists... 75%
-
-Reading package lists... 78%
-
-Reading package lists... 78%
-
-Reading package lists... 78%
-
-Reading package lists... 78%
+Reading package lists... 82%
 
 Reading package lists... 85%
 
 Reading package lists... 85%
 
-Reading package lists... 85%
+Reading package lists... 88%
 
-Reading package lists... 85%
+Reading package lists... 88%
 
-Reading package lists... 85%
+Reading package lists... 88%
 
-Reading package lists... 85%
+Reading package lists... 88%
 
-Reading package lists... 86%
+Reading package lists... 88%
 
-Reading package lists... 86%
+Reading package lists... 88%
 
-Reading package lists... 86%
-
-Reading package lists... 86%
-
-Reading package lists... 86%
-
-Reading package lists... 86%
-
-Reading package lists... 87%
-
-Reading package lists... 87%
-
-Reading package lists... 87%
-
-Reading package lists... 87%
-
-Reading package lists... 87%
-
-Reading package lists... 87%
-
-Reading package lists... 87%
-
-Reading package lists... 87%
-
-Reading package lists... 87%
-
-Reading package lists... 87%
-
-Reading package lists... 87%
-
-Reading package lists... 87%
-
-Reading package lists... 91%
-
-Reading package lists... 91%
+Reading package lists... 88%
 
 Reading package lists... 92%
 
 Reading package lists... 92%
 
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
 Reading package lists... 98%
 
 Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
 
 Reading package lists... 99%
 
@@ -559,7 +358,7 @@ Reading package lists... 99%
 
 Reading package lists... Done
 
-]0;ubuntu@ip-10-0-2-181: ~ubuntu@ip-10-0-2-181:~$ sudo apt-get upgrade
+]0;ubuntu@ip-10-0-2-127: ~[01;32mubuntu@ip-10-0-2-127[00m:[01;34m~[00m$ sudo apt-get upgrade
 
 Reading package lists... 0%
 
@@ -581,125 +380,205 @@ Building dependency tree
 
 Reading state information... 0%
 
-Reading state information... 8%
+Reading state information... 6%
 
 Reading state information... Done
 
-Calculating upgrade... Done
-The following packages have been kept back:
-  linux-headers-generic linux-headers-virtual linux-image-virtual
-  linux-virtual
-The following packages will be upgraded:
-  bind9-host cloud-init dnsutils grub-legacy-ec2 klibc-utils libbind9-90
-  libdns100 libgcrypt11 libisc95 libisccc90 libisccfg90 libklibc liblwres90
-  ntpdate
-14 upgraded, 0 newly installed, 0 to remove and 4 not upgraded.
-Need to get 1,707 kB of archives.
-After this operation, 3,072 B of additional disk space will be used.
-Do you want to continue? [Y/n] Y
 
+Calculating upgrade... 0%
+
+Calculating upgrade... 50%
+
+Calculating upgrade... Done
+
+The following packages have been kept back:
+  linux-aws linux-headers-aws linux-image-aws
+The following packages will be upgraded:
+  bind9-host bsdutils btrfs-tools cloud-init coreutils dnsutils grub-legacy-ec2 less libbind9-140 libblkid1 libdns-export162 libdns162 libfdisk1
+  libgcrypt20 libisc-export160 libisc160 libisccc140 libisccfg140 liblwres141 liblxc1 libmount1 libsmartcols1 libuuid1 lxc-common lxd lxd-client
+  mount util-linux uuid-runtime
+29 upgraded, 0 newly installed, 0 to remove and 3 not upgraded.
+Need to get 11.7 MB of archives.
+After this operation, 167 kB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
 
 0% [Working]
             
-Get:1 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main libgcrypt11 amd64 1.5.3-2ubuntu4.5 [238 kB]
+Get:1 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 bsdutils amd64 1:2.27.1-6ubuntu3.3 [52.0 kB]
 
+0% [1 bsdutils 0 B/52.0 kB 0%]
+                              
+1% [Working]
             
-0% [1 libgcrypt11 0 B/238 kB 0%]
+Get:2 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 coreutils amd64 8.25-2ubuntu3~16.04 [1,174 kB]
+
+1% [2 coreutils 0 B/1,174 kB 0%]
                                 
-14% [Working]
+10% [Working]
              
-Get:2 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main ntpdate amd64 1:4.2.6.p5+dfsg-3ubuntu2.14.04.11 [57.5 kB]
+Get:3 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 util-linux amd64 2.27.1-6ubuntu3.3 [849 kB]
 
+10% [3 util-linux 0 B/849 kB 0%]
+                                
+16% [Working]
              
-14% [2 ntpdate 0 B/57.5 kB 0%]
-                              
-17% [Working]
-             
-Get:3 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main klibc-utils amd64 2.0.3-0ubuntu1.14.04.3 [107 kB]
+Get:4 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 mount amd64 2.27.1-6ubuntu3.3 [121 kB]
 
+16% [4 mount 0 B/121 kB 0%]
+                           
+18% [Working]
              
-17% [3 klibc-utils 0 B/107 kB 0%]
+Get:5 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 uuid-runtime amd64 2.27.1-6ubuntu3.3 [26.6 kB]
+
+18% [5 uuid-runtime 0 B/26.6 kB 0%]
+                                   
+19% [Working]
+             
+Get:6 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 liblxc1 amd64 2.0.8-0ubuntu1~16.04.2 [215 kB]
+
+19% [6 liblxc1 0 B/215 kB 0%]
+                             
+21% [Working]
+             
+Get:7 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 lxc-common amd64 2.0.8-0ubuntu1~16.04.2 [28.8 kB]
+
+21% [7 lxc-common 0 B/28.8 kB 0%]
                                  
-24% [Working]
+22% [Working]
              
-Get:4 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main libklibc amd64 2.0.3-0ubuntu1.14.04.3 [40.6 kB]
+Get:8 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 lxd amd64 2.0.10-0ubuntu1~16.04.1 [3,432 kB]
 
+22% [8 lxd 0 B/3,432 kB 0%]
+                           
+46% [Working]
              
-24% [4 libklibc 0 B/40.6 kB 0%]
-                               
-26% [Working]
-             
-Get:5 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main bind9-host amd64 1:9.9.5.dfsg-3ubuntu0.15 [46.4 kB]
+Get:9 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 lxd-client amd64 2.0.10-0ubuntu1~16.04.1 [1,856 kB]
 
+46% [9 lxd-client 0 B/1,856 kB 0%]
+                                  
+59% [Working]
              
-26% [5 bind9-host 0 B/46.4 kB 0%]
-                                 
-29% [Working]
-             
-Get:6 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main dnsutils amd64 1:9.9.5.dfsg-3ubuntu0.15 [96.8 kB]
+Get:10 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libuuid1 amd64 2.27.1-6ubuntu3.3 [15.7 kB]
 
+59% [10 libuuid1 0 B/15.7 kB 0%]
+                                
+60% [Working]
              
-29% [6 dnsutils 0 B/96.8 kB 0%]
-                               
-34% [Working]
-             
-Get:7 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main libisc95 amd64 1:9.9.5.dfsg-3ubuntu0.15 [148 kB]
+Get:11 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libblkid1 amd64 2.27.1-6ubuntu3.3 [107 kB]
 
+60% [11 libblkid1 0 B/107 kB 0%]
+                                
+62% [Working]
              
-34% [7 libisc95 0 B/148 kB 0%]
-                              
-43% [Working]
-             
-Get:8 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main libdns100 amd64 1:9.9.5.dfsg-3ubuntu0.15 [644 kB]
+Get:12 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libfdisk1 amd64 2.27.1-6ubuntu3.3 [138 kB]
 
+62% [12 libfdisk1 0 B/138 kB 0%]
+                                
+63% [Working]
              
-43% [8 libdns100 0 B/644 kB 0%]
-                               
-81% [Working]
-             
-Get:9 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main libisccc90 amd64 1:9.9.5.dfsg-3ubuntu0.15 [15.7 kB]
+Get:13 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgcrypt20 amd64 1.6.5-2ubuntu0.3 [338 kB]
 
+63% [13 libgcrypt20 0 B/338 kB 0%]
+                                  
+66% [Working]
              
-81% [9 libisccc90 0 B/15.7 kB 0%]
-                                 
+Get:14 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libmount1 amd64 2.27.1-6ubuntu3.3 [114 kB]
+
+66% [14 libmount1 0 B/114 kB 0%]
+                                
+68% [Working]
+             
+Get:15 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libsmartcols1 amd64 2.27.1-6ubuntu3.3 [63.4 kB]
+
+68% [15 libsmartcols1 0 B/63.4 kB 0%]
+                                     
+69% [Working]
+             
+Get:16 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 less amd64 481-2.1ubuntu0.2 [110 kB]
+
+69% [16 less 0 B/110 kB 0%]
+                           
+70% [Working]
+             
+Get:17 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libisc-export160 amd64 1:9.10.3.dfsg.P4-8ubuntu1.7 [153 kB]
+
+70% [17 libisc-export160 0 B/153 kB 0%]
+                                       
+72% [Working]
+             
+Get:18 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libdns-export162 amd64 1:9.10.3.dfsg.P4-8ubuntu1.7 [667 kB]
+
+72% [18 libdns-export162 0 B/667 kB 0%]
+                                       
+77% [Working]
+             
+Get:19 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 bind9-host amd64 1:9.10.3.dfsg.P4-8ubuntu1.7 [38.4 kB]
+
+77% [19 bind9-host 0 B/38.4 kB 0%]
+                                  
+78% [Working]
+             
+Get:20 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 dnsutils amd64 1:9.10.3.dfsg.P4-8ubuntu1.7 [88.8 kB]
+
+78% [20 dnsutils 0 B/88.8 kB 0%]
+                                
+80% [Working]
+             
+Get:21 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libisc160 amd64 1:9.10.3.dfsg.P4-8ubuntu1.7 [215 kB]
+
+80% [21 libisc160 0 B/215 kB 0%]
+                                
 82% [Working]
              
-Get:10 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main libisccfg90 amd64 1:9.9.5.dfsg-3ubuntu0.15 [36.0 kB]
+Get:22 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libdns162 amd64 1:9.10.3.dfsg.P4-8ubuntu1.7 [880 kB]
 
+82% [22 libdns162 0 B/880 kB 0%]
+                                
+88% [Working]
              
-82% [10 libisccfg90 0 B/36.0 kB 0%]
+Get:23 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libisccc140 amd64 1:9.10.3.dfsg.P4-8ubuntu1.7 [16.3 kB]
+
+88% [23 libisccc140 0 B/16.3 kB 0%]
                                    
-84% [Working]
+89% [Working]
              
-Get:11 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main liblwres90 amd64 1:9.9.5.dfsg-3ubuntu0.15 [33.1 kB]
+Get:24 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libisccfg140 amd64 1:9.10.3.dfsg.P4-8ubuntu1.7 [40.5 kB]
 
+89% [24 libisccfg140 0 B/40.5 kB 0%]
+                                    
+90% [Working]
              
-84% [11 liblwres90 0 B/33.1 kB 0%]
+Get:25 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 liblwres141 amd64 1:9.10.3.dfsg.P4-8ubuntu1.7 [33.7 kB]
+
+90% [25 liblwres141 0 B/33.7 kB 0%]
+                                   
+91% [Working]
+             
+Get:26 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libbind9-140 amd64 1:9.10.3.dfsg.P4-8ubuntu1.7 [23.6 kB]
+
+91% [26 libbind9-140 0 B/23.6 kB 0%]
+                                    
+92% [Working]
+             
+Get:27 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 btrfs-tools amd64 4.4-1ubuntu1 [523 kB]
+
+92% [27 btrfs-tools 0 B/523 kB 0%]
                                   
-86% [Working]
+96% [Working]
              
-Get:12 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main libbind9-90 amd64 1:9.9.5.dfsg-3ubuntu0.15 [22.0 kB]
+Get:28 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 cloud-init all 0.7.9-153-g16a7302f-0ubuntu1~16.04.2 [314 kB]
 
-             
-86% [12 libbind9-90 0 B/22.0 kB 0%]
-                                   
-87% [Working]
-             
-Get:13 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main cloud-init all 0.7.5-0ubuntu1.22 [198 kB]
-
-             
-87% [13 cloud-init 0 B/198 kB 0%]
+96% [28 cloud-init 0 B/314 kB 0%]
                                  
 99% [Working]
              
-Get:14 http://us-west-2.ec2.archive.ubuntu.com/ubuntu/ trusty-updates/main grub-legacy-ec2 all 0.7.5-0ubuntu1.22 [22.6 kB]
+Get:29 http://us-west-2.ec2.archive.ubuntu.com/ubuntu xenial-updates/main amd64 grub-legacy-ec2 all 0.7.9-153-g16a7302f-0ubuntu1~16.04.2 [26.3 kB]
 
-             
-99% [14 grub-legacy-ec2 0 B/22.6 kB 0%]
+99% [29 grub-legacy-ec2 0 B/26.3 kB 0%]
                                        
 100% [Working]
               
-Fetched 1,707 kB in 0s (15.3 MB/s)
+Fetched 11.7 MB in 0s (37.8 MB/s)
 Preconfiguring packages ...
 (Reading database ... 
 (Reading database ... 5%
@@ -722,63 +601,397 @@ Preconfiguring packages ...
 (Reading database ... 90%
 (Reading database ... 95%
 (Reading database ... 100%
-(Reading database ... 51310 files and directories currently installed.)
-Preparing to unpack .../libgcrypt11_1.5.3-2ubuntu4.5_amd64.deb ...
-Unpacking libgcrypt11:amd64 (1.5.3-2ubuntu4.5) over (1.5.3-2ubuntu4.4) ...
-Preparing to unpack .../ntpdate_1%3a4.2.6.p5+dfsg-3ubuntu2.14.04.11_amd64.deb ...
-Unpacking ntpdate (1:4.2.6.p5+dfsg-3ubuntu2.14.04.11) over (1:4.2.6.p5+dfsg-3ubuntu2.14.04.10) ...
-Preparing to unpack .../klibc-utils_2.0.3-0ubuntu1.14.04.3_amd64.deb ...
-Unpacking klibc-utils (2.0.3-0ubuntu1.14.04.3) over (2.0.3-0ubuntu1.14.04.2) ...
-Preparing to unpack .../libklibc_2.0.3-0ubuntu1.14.04.3_amd64.deb ...
-Unpacking libklibc (2.0.3-0ubuntu1.14.04.3) over (2.0.3-0ubuntu1.14.04.2) ...
-Preparing to unpack .../bind9-host_1%3a9.9.5.dfsg-3ubuntu0.15_amd64.deb ...
-Unpacking bind9-host (1:9.9.5.dfsg-3ubuntu0.15) over (1:9.9.5.dfsg-3ubuntu0.14) ...
-Preparing to unpack .../dnsutils_1%3a9.9.5.dfsg-3ubuntu0.15_amd64.deb ...
-Unpacking dnsutils (1:9.9.5.dfsg-3ubuntu0.15) over (1:9.9.5.dfsg-3ubuntu0.14) ...
-Preparing to unpack .../libisc95_1%3a9.9.5.dfsg-3ubuntu0.15_amd64.deb ...
-Unpacking libisc95 (1:9.9.5.dfsg-3ubuntu0.15) over (1:9.9.5.dfsg-3ubuntu0.14) ...
-Preparing to unpack .../libdns100_1%3a9.9.5.dfsg-3ubuntu0.15_amd64.deb ...
-Unpacking libdns100 (1:9.9.5.dfsg-3ubuntu0.15) over (1:9.9.5.dfsg-3ubuntu0.14) ...
-Preparing to unpack .../libisccc90_1%3a9.9.5.dfsg-3ubuntu0.15_amd64.deb ...
-Unpacking libisccc90 (1:9.9.5.dfsg-3ubuntu0.15) over (1:9.9.5.dfsg-3ubuntu0.14) ...
-Preparing to unpack .../libisccfg90_1%3a9.9.5.dfsg-3ubuntu0.15_amd64.deb ...
-Unpacking libisccfg90 (1:9.9.5.dfsg-3ubuntu0.15) over (1:9.9.5.dfsg-3ubuntu0.14) ...
-Preparing to unpack .../liblwres90_1%3a9.9.5.dfsg-3ubuntu0.15_amd64.deb ...
-Unpacking liblwres90 (1:9.9.5.dfsg-3ubuntu0.15) over (1:9.9.5.dfsg-3ubuntu0.14) ...
-Preparing to unpack .../libbind9-90_1%3a9.9.5.dfsg-3ubuntu0.15_amd64.deb ...
-Unpacking libbind9-90 (1:9.9.5.dfsg-3ubuntu0.15) over (1:9.9.5.dfsg-3ubuntu0.14) ...
-Preparing to unpack .../cloud-init_0.7.5-0ubuntu1.22_all.deb ...
-Unpacking cloud-init (0.7.5-0ubuntu1.22) over (0.7.5-0ubuntu1.21) ...
-Preparing to unpack .../grub-legacy-ec2_0.7.5-0ubuntu1.22_all.deb ...
+(Reading database ... 51032 files and directories currently installed.)
+Preparing to unpack .../bsdutils_1%3a2.27.1-6ubuntu3.3_amd64.deb ...
+Unpacking bsdutils (1:2.27.1-6ubuntu3.3) over (1:2.27.1-6ubuntu3.2) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up bsdutils (1:2.27.1-6ubuntu3.3) ...
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 51032 files and directories currently installed.)
+Preparing to unpack .../coreutils_8.25-2ubuntu3~16.04_amd64.deb ...
+Unpacking coreutils (8.25-2ubuntu3~16.04) over (8.25-2ubuntu2) ...
+Processing triggers for install-info (6.1.0.dfsg.1-5) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up coreutils (8.25-2ubuntu3~16.04) ...
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 51032 files and directories currently installed.)
+Preparing to unpack .../util-linux_2.27.1-6ubuntu3.3_amd64.deb ...
+Unpacking util-linux (2.27.1-6ubuntu3.3) over (2.27.1-6ubuntu3.2) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for mime-support (3.59ubuntu1) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+Setting up util-linux (2.27.1-6ubuntu3.3) ...
+Processing triggers for systemd (229-4ubuntu17) ...
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 51032 files and directories currently installed.)
+Preparing to unpack .../mount_2.27.1-6ubuntu3.3_amd64.deb ...
+Unpacking mount (2.27.1-6ubuntu3.3) over (2.27.1-6ubuntu3.2) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up mount (2.27.1-6ubuntu3.3) ...
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 51032 files and directories currently installed.)
+Preparing to unpack .../uuid-runtime_2.27.1-6ubuntu3.3_amd64.deb ...
+Unpacking uuid-runtime (2.27.1-6ubuntu3.3) over (2.27.1-6ubuntu3.2) ...
+Preparing to unpack .../liblxc1_2.0.8-0ubuntu1~16.04.2_amd64.deb ...
+Unpacking liblxc1 (2.0.8-0ubuntu1~16.04.2) over (2.0.7-0ubuntu1~16.04.2) ...
+Preparing to unpack .../lxc-common_2.0.8-0ubuntu1~16.04.2_amd64.deb ...
+Unpacking lxc-common (2.0.8-0ubuntu1~16.04.2) over (2.0.7-0ubuntu1~16.04.2) ...
+Preparing to unpack .../lxd_2.0.10-0ubuntu1~16.04.1_amd64.deb ...
+Warning: Stopping lxd.service, but it can still be activated by:
+  lxd.socket
+Unpacking lxd (2.0.10-0ubuntu1~16.04.1) over (2.0.9-0ubuntu1~16.04.2) ...
+Warning: Stopping lxd.service, but it can still be activated by:
+  lxd.socket
+Preparing to unpack .../lxd-client_2.0.10-0ubuntu1~16.04.1_amd64.deb ...
+Unpacking lxd-client (2.0.10-0ubuntu1~16.04.1) over (2.0.9-0ubuntu1~16.04.2) ...
+Preparing to unpack .../libuuid1_2.27.1-6ubuntu3.3_amd64.deb ...
+Unpacking libuuid1:amd64 (2.27.1-6ubuntu3.3) over (2.27.1-6ubuntu3.2) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for systemd (229-4ubuntu17) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+Processing triggers for libc-bin (2.23-0ubuntu9) ...
+Setting up libuuid1:amd64 (2.27.1-6ubuntu3.3) ...
+Processing triggers for libc-bin (2.23-0ubuntu9) ...
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 51032 files and directories currently installed.)
+Preparing to unpack .../libblkid1_2.27.1-6ubuntu3.3_amd64.deb ...
+Unpacking libblkid1:amd64 (2.27.1-6ubuntu3.3) over (2.27.1-6ubuntu3.2) ...
+Processing triggers for libc-bin (2.23-0ubuntu9) ...
+Setting up libblkid1:amd64 (2.27.1-6ubuntu3.3) ...
+Processing triggers for libc-bin (2.23-0ubuntu9) ...
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 51032 files and directories currently installed.)
+Preparing to unpack .../libfdisk1_2.27.1-6ubuntu3.3_amd64.deb ...
+Unpacking libfdisk1:amd64 (2.27.1-6ubuntu3.3) over (2.27.1-6ubuntu3.2) ...
+Processing triggers for libc-bin (2.23-0ubuntu9) ...
+Setting up libfdisk1:amd64 (2.27.1-6ubuntu3.3) ...
+Processing triggers for libc-bin (2.23-0ubuntu9) ...
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 51032 files and directories currently installed.)
+Preparing to unpack .../libgcrypt20_1.6.5-2ubuntu0.3_amd64.deb ...
+Unpacking libgcrypt20:amd64 (1.6.5-2ubuntu0.3) over (1.6.5-2ubuntu0.2) ...
+Processing triggers for libc-bin (2.23-0ubuntu9) ...
+Setting up libgcrypt20:amd64 (1.6.5-2ubuntu0.3) ...
+Processing triggers for libc-bin (2.23-0ubuntu9) ...
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 51032 files and directories currently installed.)
+Preparing to unpack .../libmount1_2.27.1-6ubuntu3.3_amd64.deb ...
+Unpacking libmount1:amd64 (2.27.1-6ubuntu3.3) over (2.27.1-6ubuntu3.2) ...
+Processing triggers for libc-bin (2.23-0ubuntu9) ...
+Setting up libmount1:amd64 (2.27.1-6ubuntu3.3) ...
+Processing triggers for libc-bin (2.23-0ubuntu9) ...
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 51032 files and directories currently installed.)
+Preparing to unpack .../libsmartcols1_2.27.1-6ubuntu3.3_amd64.deb ...
+Unpacking libsmartcols1:amd64 (2.27.1-6ubuntu3.3) over (2.27.1-6ubuntu3.2) ...
+Processing triggers for libc-bin (2.23-0ubuntu9) ...
+Setting up libsmartcols1:amd64 (2.27.1-6ubuntu3.3) ...
+Processing triggers for libc-bin (2.23-0ubuntu9) ...
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 51032 files and directories currently installed.)
+Preparing to unpack .../less_481-2.1ubuntu0.2_amd64.deb ...
+Unpacking less (481-2.1ubuntu0.2) over (481-2.1ubuntu0.1) ...
+Preparing to unpack .../libisc-export160_1%3a9.10.3.dfsg.P4-8ubuntu1.7_amd64.deb ...
+Unpacking libisc-export160 (1:9.10.3.dfsg.P4-8ubuntu1.7) over (1:9.10.3.dfsg.P4-8ubuntu1.6) ...
+Preparing to unpack .../libdns-export162_1%3a9.10.3.dfsg.P4-8ubuntu1.7_amd64.deb ...
+Unpacking libdns-export162 (1:9.10.3.dfsg.P4-8ubuntu1.7) over (1:9.10.3.dfsg.P4-8ubuntu1.6) ...
+Preparing to unpack .../bind9-host_1%3a9.10.3.dfsg.P4-8ubuntu1.7_amd64.deb ...
+Unpacking bind9-host (1:9.10.3.dfsg.P4-8ubuntu1.7) over (1:9.10.3.dfsg.P4-8ubuntu1.6) ...
+Preparing to unpack .../dnsutils_1%3a9.10.3.dfsg.P4-8ubuntu1.7_amd64.deb ...
+Unpacking dnsutils (1:9.10.3.dfsg.P4-8ubuntu1.7) over (1:9.10.3.dfsg.P4-8ubuntu1.6) ...
+Preparing to unpack .../libisc160_1%3a9.10.3.dfsg.P4-8ubuntu1.7_amd64.deb ...
+Unpacking libisc160:amd64 (1:9.10.3.dfsg.P4-8ubuntu1.7) over (1:9.10.3.dfsg.P4-8ubuntu1.6) ...
+Preparing to unpack .../libdns162_1%3a9.10.3.dfsg.P4-8ubuntu1.7_amd64.deb ...
+Unpacking libdns162:amd64 (1:9.10.3.dfsg.P4-8ubuntu1.7) over (1:9.10.3.dfsg.P4-8ubuntu1.6) ...
+Preparing to unpack .../libisccc140_1%3a9.10.3.dfsg.P4-8ubuntu1.7_amd64.deb ...
+Unpacking libisccc140:amd64 (1:9.10.3.dfsg.P4-8ubuntu1.7) over (1:9.10.3.dfsg.P4-8ubuntu1.6) ...
+Preparing to unpack .../libisccfg140_1%3a9.10.3.dfsg.P4-8ubuntu1.7_amd64.deb ...
+Unpacking libisccfg140:amd64 (1:9.10.3.dfsg.P4-8ubuntu1.7) over (1:9.10.3.dfsg.P4-8ubuntu1.6) ...
+Preparing to unpack .../liblwres141_1%3a9.10.3.dfsg.P4-8ubuntu1.7_amd64.deb ...
+Unpacking liblwres141:amd64 (1:9.10.3.dfsg.P4-8ubuntu1.7) over (1:9.10.3.dfsg.P4-8ubuntu1.6) ...
+Preparing to unpack .../libbind9-140_1%3a9.10.3.dfsg.P4-8ubuntu1.7_amd64.deb ...
+Unpacking libbind9-140:amd64 (1:9.10.3.dfsg.P4-8ubuntu1.7) over (1:9.10.3.dfsg.P4-8ubuntu1.6) ...
+Preparing to unpack .../btrfs-tools_4.4-1ubuntu1_amd64.deb ...
+Unpacking btrfs-tools (4.4-1ubuntu1) over (4.4-1) ...
+Preparing to unpack .../cloud-init_0.7.9-153-g16a7302f-0ubuntu1~16.04.2_all.deb ...
+Unpacking cloud-init (0.7.9-153-g16a7302f-0ubuntu1~16.04.2) over (0.7.9-113-g513e99e0-0ubuntu1~16.04.1) ...
+Preparing to unpack .../grub-legacy-ec2_0.7.9-153-g16a7302f-0ubuntu1~16.04.2_all.deb ...
 Leaving 'diversion of /usr/sbin/grub-set-default to /usr/sbin/grub-set-default.real by grub-legacy-ec2'
-Unpacking grub-legacy-ec2 (0.7.5-0ubuntu1.22) over (0.7.5-0ubuntu1.21) ...
-Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
-Processing triggers for ureadahead (0.100.0-16) ...
-Setting up libgcrypt11:amd64 (1.5.3-2ubuntu4.5) ...
-Setting up ntpdate (1:4.2.6.p5+dfsg-3ubuntu2.14.04.11) ...
-Setting up libklibc (2.0.3-0ubuntu1.14.04.3) ...
-Setting up klibc-utils (2.0.3-0ubuntu1.14.04.3) ...
-Setting up libisc95 (1:9.9.5.dfsg-3ubuntu0.15) ...
-Setting up libdns100 (1:9.9.5.dfsg-3ubuntu0.15) ...
-Setting up libisccc90 (1:9.9.5.dfsg-3ubuntu0.15) ...
-Setting up libisccfg90 (1:9.9.5.dfsg-3ubuntu0.15) ...
-Setting up libbind9-90 (1:9.9.5.dfsg-3ubuntu0.15) ...
-Setting up liblwres90 (1:9.9.5.dfsg-3ubuntu0.15) ...
-Setting up bind9-host (1:9.9.5.dfsg-3ubuntu0.15) ...
-Setting up dnsutils (1:9.9.5.dfsg-3ubuntu0.15) ...
-Setting up cloud-init (0.7.5-0ubuntu1.22) ...
+Unpacking grub-legacy-ec2 (0.7.9-153-g16a7302f-0ubuntu1~16.04.2) over (0.7.9-113-g513e99e0-0ubuntu1~16.04.1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for mime-support (3.59ubuntu1) ...
+Processing triggers for libc-bin (2.23-0ubuntu9) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+Setting up uuid-runtime (2.27.1-6ubuntu3.3) ...
+Setting up lxd-client (2.0.10-0ubuntu1~16.04.1) ...
+Setting up less (481-2.1ubuntu0.2) ...
+Setting up libisc-export160 (1:9.10.3.dfsg.P4-8ubuntu1.7) ...
+Setting up libdns-export162 (1:9.10.3.dfsg.P4-8ubuntu1.7) ...
+Setting up libisc160:amd64 (1:9.10.3.dfsg.P4-8ubuntu1.7) ...
+Setting up libdns162:amd64 (1:9.10.3.dfsg.P4-8ubuntu1.7) ...
+Setting up libisccc140:amd64 (1:9.10.3.dfsg.P4-8ubuntu1.7) ...
+Setting up libisccfg140:amd64 (1:9.10.3.dfsg.P4-8ubuntu1.7) ...
+Setting up libbind9-140:amd64 (1:9.10.3.dfsg.P4-8ubuntu1.7) ...
+Setting up liblwres141:amd64 (1:9.10.3.dfsg.P4-8ubuntu1.7) ...
+Setting up bind9-host (1:9.10.3.dfsg.P4-8ubuntu1.7) ...
+Setting up dnsutils (1:9.10.3.dfsg.P4-8ubuntu1.7) ...
+Setting up btrfs-tools (4.4-1ubuntu1) ...
+update-initramfs: deferring update (trigger activated)
+Setting up cloud-init (0.7.9-153-g16a7302f-0ubuntu1~16.04.2) ...
+Installing new version of config file /etc/profile.d/Z99-cloudinit-warnings.sh ...
 Leaving 'diversion of /etc/init/ureadahead.conf to /etc/init/ureadahead.conf.disabled by cloud-init'
-Setting up grub-legacy-ec2 (0.7.5-0ubuntu1.22) ...
+Setting up grub-legacy-ec2 (0.7.9-153-g16a7302f-0ubuntu1~16.04.2) ...
 Searching for GRUB installation directory ... found: /boot/grub
 Searching for default file ... found: /boot/grub/default
 Testing for an existing GRUB menu.lst file ... found: /boot/grub/menu.lst
 Searching for splash image ... none found, skipping ...
-Found kernel: /boot/vmlinuz-3.13.0-121-generic
-Found kernel: /boot/vmlinuz-3.13.0-121-generic
+Found kernel: /boot/vmlinuz-4.4.0-81-generic
+[?1049h[1;32r[4l[?25l(B[m[37m[40m[1;32r[H[2J[1;1H[97m[45m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[37mPackage configuration[8;16H[30m[47m┌────────────────────────────────────────────────────────┤  ├────────────────────────────────────────────────────────┐[9;16H│ A new version of /boot/grub/menu.lst is available, but the version installed currently has been locally modified.  │[97m[40m [10;16H[30m[47m│                                                                                                                    │[97m[40m [11;16H[30m[47m│ What would you like to do about menu.lst?                                                                          │[97m[40m [12;16H[30m[47m│                                                                                                                    │[97m[40m [13;16H[30m[47m│                             install the package maintainer's version                                               │[97m[40m [14;16H[30m[47m│                             [37m[41mkeep the local version currently installed                [30m[47m                             │[97m[40m [15;16H[30m[47m│                             show the differences between the versions                                              │[97m[40m [16;16H[30m[47m│                             show a side-by-side difference between the versions                                    │[97m[40m [17;16H[30m[47m│                             show a 3-way difference between available versions                                     │[97m[40m [18;16H[30m[47m│                             do a 3-way merge between available versions (experimental)                             │[97m[40m [19;16H[30m[47m│                             start a new shell to examine the situation                                             │[97m[40m [20;16H[30m[47m│                                                                                                                    │[97m[40m [21;16H[30m[47m│                                                                                                                    │[97m[40m [22;16H[30m[47m│                                                       <Ok>                                                         │[97m[40m [23;16H[30m[47m│                                                                                                                    │[97m[40m [24;16H[30m[47m└────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [25;17H                                                                                                                      [14;46H[A[37m[41minstall the package maintainer's version                  [14;46H[30m[47mkeep the local version currently installed                [13;46H[?12l[?25h[32;1H[37m[40m(B[m[39;49m
+[K
+[?1049lReplacing config file /run/grub/menu.lst with new version
+Found kernel: /boot/vmlinuz-4.4.0-1020-aws
+Replacing config file /run/grub/menu.lst with new version
 Updating /boot/grub/menu.lst ... done
 
-Processing triggers for libc-bin (2.19-0ubuntu6.13) ...
-]0;ubuntu@ip-10-0-2-181: ~ubuntu@ip-10-0-2-181:~$ exit
+Setting up liblxc1 (2.0.8-0ubuntu1~16.04.2) ...
+Setting up lxc-common (2.0.8-0ubuntu1~16.04.2) ...
+Setting up lxd (2.0.10-0ubuntu1~16.04.1) ...
+Processing triggers for libc-bin (2.23-0ubuntu9) ...
+Processing triggers for initramfs-tools (0.122ubuntu8.8) ...
+update-initramfs: Generating /boot/initrd.img-4.4.0-1020-aws
+W: mdadm: /etc/mdadm/mdadm.conf defines no arrays.
+]0;ubuntu@ip-10-0-2-127: ~[01;32mubuntu@ip-10-0-2-127[00m:[01;34m~[00m$ exit
 exit
 
-Script done on Sun 09 Jul 2017 09:43:50 PM UTC
+Script done on Sun 09 Jul 2017 10:59:33 PM UTC
