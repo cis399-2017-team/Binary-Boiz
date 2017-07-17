@@ -1,0 +1,16 @@
+Script started on Mon 17 Jul 2017 09:51:28 AM UTC
+]0;ubuntu@ip-10-0-2-127: ~[01;32mubuntu@ip-10-0-2-127[00m:[01;34m~[00m$ sudo service stop sshd
+stop: unrecognized service
+]0;ubuntu@ip-10-0-2-127: ~[01;32mubuntu@ip-10-0-2-127[00m:[01;34m~[00m$ sudo service stop sshd[1Psshd[1Psshd[1Psshd[1Psshd[C[1Phd[C[C[C[C stop
+]0;ubuntu@ip-10-0-2-127: ~[01;32mubuntu@ip-10-0-2-127[00m:[01;34m~[00m$ sudo service sshd stoptop sshdexit[Ksudo puppet agent -t
+[0;32mInfo: Retrieving pluginfacts[0m
+[0;32mInfo: Retrieving plugin[0m
+[0;32mInfo: Caching catalog for ip-10-0-2-127.us-west-2.compute.internal[0m
+[0;32mInfo: Applying configuration version '1500283866'[0m
+[mNotice: /Stage[main]/Sshd/Service[ssh]/ensure: ensure changed 'stopped' to 'running'[0m
+[0;32mInfo: /Stage[main]/Sshd/Service[ssh]: Unscheduling refresh on Service[ssh][0m
+[mNotice: Finished catalog run in 0.13 seconds[0m
+]0;ubuntu@ip-10-0-2-127: ~[01;32mubuntu@ip-10-0-2-127[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Mon 17 Jul 2017 09:52:58 AM UTC
