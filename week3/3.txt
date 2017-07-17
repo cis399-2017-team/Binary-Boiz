@@ -1,0 +1,16 @@
+Script started on Mon 17 Jul 2017 09:53:26 AM UTC
+]0;ubuntu@ip-10-0-2-127: ~[01;32mubuntu@ip-10-0-2-127[00m:[01;34m~[00m$ mv [K[K[Ksudo mv /etc/ssh/sshd_config /etc/ssh/sshd_config_1
+]0;ubuntu@ip-10-0-2-127: ~[01;32mubuntu@ip-10-0-2-127[00m:[01;34m~[00m$ sudo mv /etc/ssh/sshd_config /etc/ssh/sshd_config_1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Ksudo puppet agent -t
+[0;32mInfo: Retrieving pluginfacts[0m
+[0;32mInfo: Retrieving plugin[0m
+[0;32mInfo: Caching catalog for ip-10-0-2-127.us-west-2.compute.internal[0m
+[0;32mInfo: Applying configuration version '1500283866'[0m
+[mNotice: /Stage[main]/Sshd/File[sshdconfig]/ensure: defined content as '{md5}8383ec31cdeb8b721a56d1e3ea7eb8d5'[0m
+[0;32mInfo: /Stage[main]/Sshd/File[sshdconfig]: Scheduling refresh of Service[ssh][0m
+[0;32mInfo: /Stage[main]/Sshd/File[sshdconfig]: Scheduling refresh of Service[ssh][0m
+[mNotice: /Stage[main]/Sshd/Service[ssh]: Triggered 'refresh' from 2 events[0m
+[mNotice: Finished catalog run in 0.16 seconds[0m
+]0;ubuntu@ip-10-0-2-127: ~[01;32mubuntu@ip-10-0-2-127[00m:[01;34m~[00m$ cat [K[K[K[Kexut[K[Kit
+exit
+
+Script done on Mon 17 Jul 2017 09:54:32 AM UTC
