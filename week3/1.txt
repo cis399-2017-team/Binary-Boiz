@@ -1,0 +1,90 @@
+Script started on Mon 17 Jul 2017 10:01:51 AM UTC
+]0;ubuntu@ip-10-0-2-127: ~[01;32mubuntu@ip-10-0-2-127[00m:[01;34m~[00m$ sudo apt-get purge openssh-server
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 1%
+
+Reading state information... Done
+
+The following packages will be REMOVED:
+  openssh-server*
+0 upgraded, 0 newly installed, 1 to remove and 0 not upgraded.
+After this operation, 912 kB disk space will be freed.
+Do you want to continue? [Y/n] Y
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 79601 files and directories currently installed.)
+Removing openssh-server (1:7.2p2-4ubuntu2.2) ...
+Purging configuration files for openssh-server (1:7.2p2-4ubuntu2.2) ...
+Processing triggers for man-db (2.7.5-1) ...
+]0;ubuntu@ip-10-0-2-127: ~[01;32mubuntu@ip-10-0-2-127[00m:[01;34m~[00m$ sudo apt-get purge openssh-server
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Ksudo puppet agent -tmv ~ubuntu/.ssh/authorized_keys ~ubuntu/.ssh/authorized_keys_1
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Ksudo mv ~ubuntu/.ssh/authorized_keys ~ubuntu/.ssh/authorized_keys_1
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpuppet agent -t[K
+[0;32mInfo: Retrieving pluginfacts[0m
+[0;32mInfo: Retrieving plugin[0m
+[0;32mInfo: Caching catalog for ip-10-0-2-127.us-west-2.compute.internal[0m
+[0;32mInfo: Applying configuration version '1500283866'[0m
+[mNotice: /Stage[main]/Sshd/Package[openssh-server]/ensure: ensure changed 'purged' to 'latest'[0m
+[mNotice: /Stage[main]/Sshd/File[sshdconfig]/content: 
+--- /etc/ssh/sshd_config	2017-07-17 10:02:20.684151645 +0000
++++ /tmp/puppet-file20170717-5282-1n97boh	2017-07-17 10:02:22.752128695 +0000
+@@ -49,7 +49,7 @@
+ ChallengeResponseAuthentication no
+ 
+ # Change to no to disable tunnelled clear text passwords
+-#PasswordAuthentication yes
++PasswordAuthentication no
+ 
+ # Kerberos options
+ #KerberosAuthentication no
+[0m
+[0;32mInfo: Computing checksum on file /etc/ssh/sshd_config[0m
+[0;32mInfo: /Stage[main]/Sshd/File[sshdconfig]: Filebucketed /etc/ssh/sshd_config to puppet with sum bd3a2b95f8b4b180eed707794ad81e4d[0m
+[mNotice: /Stage[main]/Sshd/File[sshdconfig]/content: content changed '{md5}bd3a2b95f8b4b180eed707794ad81e4d' to '{md5}8383ec31cdeb8b721a56d1e3ea7eb8d5'[0m
+[0;32mInfo: /Stage[main]/Sshd/File[sshdconfig]: Scheduling refresh of Service[ssh][0m
+[0;32mInfo: /Stage[main]/Sshd/File[sshdconfig]: Scheduling refresh of Service[ssh][0m
+[mNotice: /Stage[main]/Sshd/Service[ssh]: Triggered 'refresh' from 2 events[0m
+[mNotice: Finished catalog run in 3.71 seconds[0m
+]0;ubuntu@ip-10-0-2-127: ~[01;32mubuntu@ip-10-0-2-127[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Mon 17 Jul 2017 10:02:53 AM UTC

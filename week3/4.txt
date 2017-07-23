@@ -1,0 +1,15 @@
+Script started on Mon 17 Jul 2017 09:55:39 AM UTC
+]0;ubuntu@ip-10-0-2-127: ~[01;32mubuntu@ip-10-0-2-127[00m:[01;34m~[00m$ sudo mv ~ubuntu/.ssh/authorized_keys ~ubuntu/.ssh/authorized_keys_1
+]0;ubuntu@ip-10-0-2-127: ~[01;32mubuntu@ip-10-0-2-127[00m:[01;34m~[00m$ sudo mv ~ubuntu/.ssh/authorized_keys ~ubuntu/.ssh/authorized_keys_1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Ksudo puppet agent -t
+[0;32mInfo: Retrieving pluginfacts[0m
+[0;32mInfo: Retrieving plugin[0m
+[0;32mInfo: Caching catalog for ip-10-0-2-127.us-west-2.compute.internal[0m
+[0;32mInfo: Applying configuration version '1500283866'[0m
+[mNotice: /Stage[main]/Sshd/Ssh_authorized_key[cplachno-kp]/ensure: created[0m
+[mNotice: /Stage[main]/Sshd/Ssh_authorized_key[aziz94shh]/ensure: created[0m
+[mNotice: /Stage[main]/Sshd/Ssh_authorized_key[levishutts]/ensure: created[0m
+[mNotice: Finished catalog run in 0.09 seconds[0m
+]0;ubuntu@ip-10-0-2-127: ~[01;32mubuntu@ip-10-0-2-127[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Mon 17 Jul 2017 09:56:33 AM UTC
