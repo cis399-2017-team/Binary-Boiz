@@ -1,0 +1,2 @@
+URL to access our basic html page.
+http://54.68.19.155/index.html        
