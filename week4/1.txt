@@ -1,2 +1,10 @@
 URL to access our basic html page.
-http://54.68.19.155/index.html        
+
+server 1: 
+- http://ec2-35-161-107-254.us-west-2.compute.amazonaws.com/
+- http://ec2-35-161-107-254.us-west-2.compute.amazonaws.com/test
+
+
+server 2: 
+- http://ec2-35-160-253-168.us-west-2.compute.amazonaws.com/
+- http://ec2-35-160-253-168.us-west-2.compute.amazonaws.com/test
