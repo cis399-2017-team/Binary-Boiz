@@ -1,0 +1,11 @@
+- shut down one back-end  instance:
+  when we shutdown  one instance is shutdown the webpages are still showing 
+  (one of the Apache servers still running)
+  
+- shut down both back-end instances:
+  when down shutdown both back-end instances the webpages are no longer showing
+  (none of the Apache servers are running)
+  
+- restore both back-end instances:
+  the webpages are showing agian!
+  (both of the Apache servers running again)
