@@ -1,0 +1,21 @@
+Alarm Details:
+- Name:                       awsec2-i-0038e14c0c17cb646-High-Network-Out
+- Description:                Created from EC2 Console
+- State Change:               INSUFFICIENT_DATA -> ALARM
+- Reason for State Change:    Threshold Crossed: 1 datapoint [138812.0 (06/08/17 20:59:00)] was greater than or equal to the threshold (1.0).
+- Timestamp:                  Sunday 06 August, 2017 21:09:40 UTC
+- AWS Account:                006170570170
+Threshold:
+- The alarm is in the ALARM state when the metric is GreaterThanOrEqualToThreshold 1.0 for 300 seconds. 
+Monitored Metric:
+- MetricNamespace:                     AWS/EC2
+- MetricName:                          NetworkOut
+- Dimensions:                          [InstanceId = i-0038e14c0c17cb646]
+- Period:                              300 seconds
+- Statistic:                           Maximum
+- Unit:                                not specified
+
+State Change Actions:
+- OK: 
+- ALARM: [arn:aws:sns:us-west-2:006170570170:Binary_Boiz]
+- INSUFFICIENT_DATA: 
