@@ -1,0 +1,25 @@
+Alarm Details:
+- Name:                       awsec2-i-0038e14c0c17cb646-CPU-Utilization
+- Description:                Created from EC2 Console
+- State Change:               INSUFFICIENT_DATA -> ALARM
+- Reason for State Change:    Threshold Crossed: 1 datapoint [0.17 (06/08/17 20:58:00)] was greater than or equal to the threshold (0.1).
+- Timestamp:                  Sunday 06 August, 2017 21:08:14 UTC
+- AWS Account:                006170570170
+
+Threshold:
+- The alarm is in the ALARM state when the metric is GreaterThanOrEqualToThreshold 0.1 for 300 seconds. 
+
+Monitored Metric:
+- MetricNamespace:                     AWS/EC2
+- MetricName:                          CPUUtilization
+- Dimensions:                          [InstanceId = i-0038e14c0c17cb646]
+- Period:                              300 seconds
+- Statistic:                           Maximum
+- Unit:                                not specified
+
+
+
+State Change Actions:
+- OK: 
+- ALARM: [arn:aws:sns:us-west-2:006170570170:Binary_Boiz]
+- INSUFFICIENT_DATA: 
