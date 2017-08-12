@@ -5,7 +5,8 @@ Goals:
       
 Use:
       Gives a set of users access to useful software which may help help with productivity
-      Difficulties with using the software can be answered through the Paperwork documentation, or through our expanded knowledge through working with the application.
+      Difficulties with using the software can be answered through the Paperwork documentation, or through our expanded knowledge through 
+            working with the application.
       
 Difficulties:
       Had to temporarily upgrade our instance's RAM to install and set up the software's dependencies
@@ -15,7 +16,8 @@ User Support Issues:
 Security Issues:
 
 Maintenance:
-      To maintain this software we want to continually update it to the latest version. We would also want to keep backups of the user data so that people who have made user accounts don't lose their information if we make a mistake when updating.
+      To maintain this software we want to continually update it to the latest version. We would also want to keep backups of the user 
+            data so that people who have made user accounts don't lose their information if we make a mistake when updating.
       Making backups could be automated with a time based Cron job.
 Documentation:
       https://github.com/twostairs/paperwork/blob/master/README.md
