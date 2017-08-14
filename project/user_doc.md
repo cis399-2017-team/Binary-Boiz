@@ -1,10 +1,10 @@
 User documentation:
 
 1. Creating an account:
-  a. Go to (http://binaryboiz.ddns.net).
-  b. Click on the 'Sign up' button, it will take you to the registeration page.
-  c. Fill in the form with your: email, first name, last name, password, password again, and choose your preferred language.
-  d. Click on the 'Sign up' button. 
+  1. Go to (http://binaryboiz.ddns.net).
+  2. Click on the 'Sign up' button, it will take you to the registeration page.
+  3. Fill in the form with your: email, first name, last name, password, password again, and choose your preferred language.
+  4. Click on the 'Sign up' button. 
   
 2. Sign in to the website:
   a. go to http://binaryboiz.ddns.net/
