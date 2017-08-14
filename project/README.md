@@ -1,3 +1,5 @@
+Project website: http://binaryboiz.ddns.net/
+
 https://github.com/twostairs/paperwork/blob/master/README.md
 
 Paperwork aims to be an open-source, self-hosted alternative to services like Evernote ®, Microsoft OneNote ® or Google Keep ®.
