@@ -1,18 +1,18 @@
 User documentation:
 
-###1. Creating an account:
+## 1. Creating an account:
    1. Go to (http://binaryboiz.ddns.net).
    2. Click on the 'Sign up' button, it will take you to the registeration page.
    3. Fill in the form with your: email, first name, last name, password, password again, and choose your preferred language.
    4. Click on the 'Sign up' button. 
   
-###2. Sign in to the website:
+## 2. Sign in to the website:
    1. go to http://binaryboiz.ddns.net/
    2. Enter your email and password.
    3. Check 'Remember me' box, if you want to save your email and password. Next time you visit the website.
    4. Click on the 'Sign in' button.
   
-###3- Password recovery:
+## 3- Password recovery:
    1. go to http://binaryboiz.ddns.net/
    2. Click on Forgot your password? link.
    3. Enter your email address.
