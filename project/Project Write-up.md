@@ -1,7 +1,7 @@
 
 Goals: 
       - Create a new instance for hosting our project server
-      - Create and maintain a webserver which hosts the open source software Paperwork (https://github.com/twostairs/paperwork/blob/master/README.md)
+      - Create and maintain a webserver which hosts the open source software Paperwork https://github.com/twostairs/paperwork/blob/master/README.md
       
 Use:
       - Gives a set of users access to useful software which may help with productivity
@@ -23,6 +23,6 @@ Maintenance:
       - We would want to keep backups of the website's database so that people who have made user accounts don't lose their information if we make a mistake when updating.
       - Making backups could be automated with a time based Cron job.
 Documentation:
-      - Administration documentation (https://github.com/twostairs/paperwork/blob/master/README.md)
-      - User documentation: (https://github.com/cis399-2017-team/Binary-Boiz/blob/master/project/user_doc.md) or (http://binaryboiz.ddns.net/help)
+      - Administration documentation https://github.com/twostairs/paperwork/blob/master/README.md
+      - User documentation: https://github.com/cis399-2017-team/Binary-Boiz/blob/master/project/user_doc.md or http://binaryboiz.ddns.net/help
       
