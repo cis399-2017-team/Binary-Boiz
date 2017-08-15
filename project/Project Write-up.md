@@ -23,6 +23,7 @@ Maintenance:
       - We would want to keep backups of the website's database so that people who have made user accounts don't lose their information if we make a mistake when updating.
       - Making backups could be automated with a time based Cron job.
 Documentation:
-      - Administration documentation https://github.com/twostairs/paperwork/blob/master/README.md
+      - Administration documentation https://github.com/twostairs/paperwork/wiki
+      
       - User documentation: https://github.com/cis399-2017-team/Binary-Boiz/blob/master/project/user_doc.md or http://binaryboiz.ddns.net/help
       
