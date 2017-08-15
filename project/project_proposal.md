@@ -2,13 +2,13 @@
 
 ### Goals: 
 * Create a new instance for hosting our project server.
-* Create and maintain a webserver which hosts the open source software Paperwork https://github.com/twostairs/paperwork/blob/master/README.md .
+* Create and maintain a web server which hosts the open source software Paperwork https://github.com/twostairs/paperwork/blob/master/README.md .
 * Test if the website is working correctly: creating accounts, creating notes, etc.
 
-### Testing Methodes:
+### Testing Methods:
 * Go through all the links in the website and make sure that they are working correctly.
-* Go though each task that website provedes, like creating accounts, creating notes, etc., and make sure working correctly.
-* Check the web server and the database if they are runinng correctly.
+* Go though each task that website provides, like creating accounts, creating notes, etc., and make sure working correctly.
+* Check the web server and the database if they are running correctly.
       
 ### Use:
 * Gives a set of users access to useful software which may help with productivity.
@@ -16,11 +16,11 @@
       
 ### Difficulties:
 * Had to temporarily upgrade our instance's RAM to install and set up the software's dependencies.
-* There was problem with 'Forgot password' page it was not sending a 'Password Reset' email and insted it showed an error. (problem is fixed)
+* There was problem with 'Forgot password' page it was not sending a 'Password Reset' email and instead it showed an error. (problem is fixed)
       
 ### User Support Issues:
-* A user forgot the account email and password, so there is no way that we can virfy the account belong to the user.
-* A user deleted a note and want us to recover the note, which can be done if we have the note in our databse backups.
+* A user forgot the account email and password, so there is no way that we can verify the account belong to the user.
+* A user deleted a note and want us to recover the note, which can be done if we have the note in our database backups.
 
 ### Security Issues:
 * Since Paperwork is an open source software, anyone could look at the source code and try to find a way to breach the website.
@@ -28,7 +28,7 @@
 ### Work needed to complete the project:
 * To complete the project we created a new instance for the project and connected it Dynamic DNS https://binaryboiz.ddns.net
 * We went through the documentation in the Paperwork github to install and run the web app [link to the docs](https://github.com/twostairs/paperwork/wiki).
-* We created an email to send the an password recovery link, in case if a user forgot the account password.
+* We created an email to send the a password recovery link, in case if a user forgot the account password.
 
 ### Maintenance:
 * To maintain this software we want to continually update it to the latest version. 
