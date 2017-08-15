@@ -1,3 +1,4 @@
+# Project website: http://binaryboiz.ddns.net/
 
 ### Goals: 
 * Create a new instance for hosting our project server.
