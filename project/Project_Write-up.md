@@ -1,12 +1,11 @@
 
 ### Goals: 
-      - Create a new instance for hosting our project server
-      - Create and maintain a webserver which hosts the open source software Paperwork https://github.com/twostairs/paperwork/blob/master/README.md
+* Create a new instance for hosting our project server
+* Create and maintain a webserver which hosts the open source software Paperwork (https://github.com/twostairs/paperwork/blob/master/README.md)
       
 ### Use:
-      - Gives a set of users access to useful software which may help with productivity
-      - Difficulties with using the software can be answered through the Paperwork documentation, or through our expanded knowledge through 
-            working with the application.
+* Gives a set of users access to useful software which may help with productivity
+* Difficulties with using the software can be answered through the Paperwork documentation, or through our expanded knowledge through working with the application.
       
 ### Difficulties:
       - Had to temporarily upgrade our instance's RAM to install and set up the software's dependencies
