@@ -3,6 +3,8 @@
 ### Goals: 
 * Create a new instance for hosting our project server.
 * Create and maintain a webserver which hosts the open source software Paperwork (https://github.com/twostairs/paperwork/blob/master/README.md).
+* Test if the website is working correctly: creating accounts, creating notes, etc.
+
       
 ### Use:
 * Gives a set of users access to useful software which may help with productivity.
@@ -16,7 +18,13 @@
       
 
 ### Security Issues:
-* Since its an open source software, anyone could look at the source code and try to find a way to breach the website.
+* Since Paperwork is an open source software, anyone could look at the source code and try to find a way to breach the website.
+
+### Project dependencies:
+* Linux
+* Nginx
+* MySQL
+* PHP
 
 ### Maintenance:
 * To maintain this software we want to continually update it to the latest version. 
