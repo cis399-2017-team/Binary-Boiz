@@ -24,6 +24,7 @@
 
 ### Security Issues:
 * Since Paperwork is an open source software, anyone could look at the source code and try to find a way to breach the website.
+* Our server sends and receives sensitive information so we must configure an SSL certificate with nginx to encrypt the information we are sending
 
 ### Work needed to complete the project:
 * To complete the project we created a new instance for the project and connected it Dynamic DNS http://binaryboiz.ddns.net
