@@ -2,7 +2,7 @@
 
 ### Goals: 
 * Create a new instance for hosting our project server.
-* Create and maintain a webserver which hosts the open source software Paperwork (https://github.com/twostairs/paperwork/blob/master/README.md).
+* Create and maintain a webserver which hosts the open source software Paperwork https://github.com/twostairs/paperwork/blob/master/README.md .
 * Test if the website is working correctly: creating accounts, creating notes, etc.
 
 ### Testing Methodes:
@@ -23,7 +23,7 @@
 * Since Paperwork is an open source software, anyone could look at the source code and try to find a way to breach the website.
 
 ### Work needed to complete the project:
-* To complete the project we created a new instance for the project and connected it Dynamic DNS (https://binaryboiz.ddns.net)
+* To complete the project we created a new instance for the project and connected it Dynamic DNS https://binaryboiz.ddns.net
 * We went through the documentation in the Paperwork github to install and run the web app [link to the docs](https://github.com/twostairs/paperwork/wiki).
 
 ### Maintenance:
@@ -32,6 +32,6 @@
 * Making backups could be automated with a time based Cron job.
 
 ### Documentation:
-* Administration documentation (https://github.com/twostairs/paperwork/wiki).  
-* User documentation: (https://github.com/cis399-2017-team/Binary-Boiz/blob/master/project/user_doc.md) or (http://binaryboiz.ddns.net/help)
+* Administration documentation https://github.com/twostairs/paperwork/wiki.  
+* User documentation: https://github.com/cis399-2017-team/Binary-Boiz/blob/master/project/user_doc.md or http://binaryboiz.ddns.net/help
       
