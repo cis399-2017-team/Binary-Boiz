@@ -6,7 +6,9 @@
 * Test if the website is working correctly: creating accounts, creating notes, etc.
 
 ### Testing Methodes:
-*
+* Go through all the links in the website and make sure that they are working correctly.
+* Go though each task that website provedes, like creating accounts, creating notes, etc., and make sure working correctly.
+* Check the web server and the database if they are runinng correctly.
       
 ### Use:
 * Gives a set of users access to useful software which may help with productivity.
@@ -17,7 +19,8 @@
 * There was problem with 'Forgot password' page it was not sending a 'Password Reset' email and insted it showed an error. (problem is fixed)
       
 ### User Support Issues:
-      
+* A user forgot the account email and password, so there is no way that we can virfy the account belong to the user.
+* A user deleted a note and want us to recover the note, which can be done if we have the note in our databse backups.
 
 ### Security Issues:
 * Since Paperwork is an open source software, anyone could look at the source code and try to find a way to breach the website.
@@ -25,6 +28,7 @@
 ### Work needed to complete the project:
 * To complete the project we created a new instance for the project and connected it Dynamic DNS https://binaryboiz.ddns.net
 * We went through the documentation in the Paperwork github to install and run the web app [link to the docs](https://github.com/twostairs/paperwork/wiki).
+* We created an email to send the an password recovery link, in case if a user forgot the account password.
 
 ### Maintenance:
 * To maintain this software we want to continually update it to the latest version. 
