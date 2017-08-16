@@ -1,4 +1,4 @@
-# Project website: http://binaryboiz.ddns.net/
+# Project website: https://binaryboiz.ddns.net/
 
 ### Goals: 
 * Create a new instance for hosting our project server.
@@ -7,7 +7,7 @@
 
 ### Testing Methods:
 * Go through all the links in the website and make sure that they are working correctly.
-* Go though each task that website provides, like creating accounts, creating notes, etc., and make sure working correctly.
+* Go though each task that website provides, like creating accounts, creating notes, etc., and make sure it's working correctly.
 * Check the web server and the database if they are running correctly.
       
 ### Use:
@@ -20,7 +20,7 @@
       
 ### User Support Issues:
 * A user forgot the account email and password, so there is no way that we can verify the account belong to the user.
-* A user deleted a note and want us to recover the note, which can be done if we have the note in our database backups.
+* A user deleted a note and want us to recover the note, which can be done if we have the note is in our database backups.
 
 ### Security Issues:
 * Since Paperwork is an open source software, anyone could look at the source code and try to find a way to breach the website.
