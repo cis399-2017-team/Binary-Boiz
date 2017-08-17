@@ -27,9 +27,9 @@
 * Our server sends and receives sensitive information so we must configure an SSL certificate with nginx to encrypt the information we are sending
 
 ### Work needed to complete the project:
-* To complete the project we created a new instance for the project and connected it Dynamic DNS http://binaryboiz.ddns.net
+* To complete the project we created a new instance for the project and connected it Dynamic DNS https://binaryboiz.ddns.net
 * We went through the documentation in the Paperwork github to install and run the web app [link to the docs](https://github.com/twostairs/paperwork/wiki).
-* We created an email to send the a password recovery link, in case if a user forgot the account password.
+* We created an email to send the a password recovery link, in case a user forgot the account password.
 * for more information: https://github.com/cis399-2017-team/Binary-Boiz/blob/master/project/Admin_doc.md
 
 ### Maintenance:
